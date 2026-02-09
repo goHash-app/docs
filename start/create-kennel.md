@@ -2,7 +2,7 @@
 title: Create a Kennel
 description: Start a kennel so you can manage members, runs, and content.
 published: true
-date: 2026-02-09T01:42:17.140Z
+date: 2026-02-09T03:24:17.283Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:11:59.439Z
@@ -10,8 +10,6 @@ dateCreated: 2026-02-09T01:11:59.439Z
 
 > A designated committee member creates the kennel and becomes the **Owner**. After creation, you can invite other users and assign roles with the access they need.
 {.is-info}
-
-If you don’t have a GoHash account yet, you can create one during the kennel creation; if you already have an account, just log in to proceed.
 
 ## Fields on this page
 - **Kennel name**: The name of your Hash kennel/chapter.
@@ -23,7 +21,9 @@ If you don’t have a GoHash account yet, you can create one during the kennel c
 - **Account setup**: 
   - **Create account**: Email, display name, password, confirm password, accept terms.
   - **Sign in**: Email and password to use an existing GoHash account.
-
+  
+> If you don’t have a GoHash account yet, you can create one during the kennel creation; if you already have an account, just log in to proceed.
+ 
 ## Steps
 1) Choose **Create a Kennel** on **https://portal.gohash.app**
 2) Enter the **Kennel name**.

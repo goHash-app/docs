@@ -2,7 +2,7 @@
 title: Logging in
 description: Invites, account setup, email verification, and switching kennels.
 published: true
-date: 2026-02-09T01:31:49.409Z
+date: 2026-02-09T03:26:54.136Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:12:36.996Z
@@ -10,8 +10,6 @@ dateCreated: 2026-02-09T01:12:36.996Z
 
 > Log in at **https://portal.gohash.app/login** to reach your kennel.
 {.is-info}
-
-This page covers login, password reset, email verification, invites, switching kennels, and creating a kennel.
 
 # Login
 - Go to **https://portal.gohash.app/login**.

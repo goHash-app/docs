@@ -2,11 +2,15 @@
 title: What is goHash.app
 description: GoHash is a platform for running your kennel: organizing runs and events, managing members and roles, and publishing content for your community.
 published: true
-date: 2026-02-08T15:29:33.536Z
+date: 2026-02-09T01:16:01.586Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-08T14:37:00.569Z
 ---
+
+> GoHash is the home base for hash kennels and chapters to plan runs, keep member records, and publish site content—all in one portal. It’s designed for committees and run organizers who need to coordinate runs, manage members, and share updates with their pack.
+{.is-info}
+
 
 # Key concepts
 

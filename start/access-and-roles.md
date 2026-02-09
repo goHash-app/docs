@@ -2,7 +2,7 @@
 title: Access & Roles
 description: Roles in GoHash and what each can do.
 published: true
-date: 2026-02-09T00:57:28.498Z
+date: 2026-02-09T00:57:30.995Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T00:57:28.498Z

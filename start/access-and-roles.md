@@ -2,7 +2,7 @@
 title: Access & Roles
 description: Roles in GoHash and what each can do.
 published: true
-date: 2026-02-09T05:13:03.203Z
+date: 2026-02-09T05:13:10.981Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T00:57:28.498Z
@@ -10,7 +10,6 @@ dateCreated: 2026-02-09T00:57:28.498Z
 
 > Uses roles to control which users can manage members, runs, content, billing, and settings. Assign only what each person needs.
 {.is-info}
-
 
 - **Purpose**: Explain the available roles and how to assign them.
 - **Who should read**: Owners and Admins assigning permissions.

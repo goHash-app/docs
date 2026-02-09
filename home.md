@@ -2,16 +2,14 @@
 title: goHash
 description: Official Documentation for goHash
 published: true
-date: 2026-02-08T15:15:24.013Z
+date: 2026-02-09T01:16:36.873Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-08T14:12:05.513Z
 ---
 
-> Official Documentation for goHash.app
+> This official documentation helps you run your kennel on GoHash—from onboarding and roles to creating runs, managing content, and handling billing.
 {.is-info}
-
-This documentation helps you run your kennel on GoHash—from onboarding and roles to creating runs, managing content, and handling billing.
 
 ## Getting Started
 

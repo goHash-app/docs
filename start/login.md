@@ -2,7 +2,7 @@
 title: Logging in
 description: Invites, account setup, email verification, and switching kennels.
 published: true
-date: 2026-02-09T01:26:08.610Z
+date: 2026-02-09T01:31:49.409Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:12:36.996Z
@@ -24,18 +24,18 @@ This page covers login, password reset, email verification, invites, switching k
 
 # Email verification
 - After signup or email change, check your inbox for the verification link.
-- Click the link to verify so you can access member-only areas and accept invites.
-*(screenshot: email verification prompt or success state)*
+- Click the link to verify so you can access your kennel(s) in the portal.
 
 # Invitation
-- Open the invite email sent by your kennel admins and click the invite link.
-- If you’re new: set a password and verify your email. If you already have an account: log in to accept the invite.
-*(screenshot: invite email with call-to-action button)*
+- Admins of a kennel invite users and assign roles to that user. 
+- If you are invited, open the invite email sent by your kennel admins and click the **accept invitation** link.
+- If you’re new user on goHash: set a password and verify your email. If you already have an account: log in to accept the invite.
 
 # Switching kennels
-- Use the kennel switcher in the portal header to move between kennels you belong to.
+- If you have access to multiple kennels, on login you will be asked to select which kennel you want to login to.
+- After login if you want to switch, use the kennel switcher at the top of the menu to switch between kennels you belong to.
 *(screenshot: kennel switcher dropdown showing multiple kennels)*
 
 # Create a kennel
-- If you need to start a new kennel, go to the **Create a Kennel** page to set name, slug, and contact.
-*(screenshot: create kennel form with name/slug fields)*
+- If you need to start a new kennel on goHash, go to **https://portal.gohash.app/create**
+- You can learn more about creating a new kennel on the **Create a Kennel** documentation page.

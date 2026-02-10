@@ -2,20 +2,26 @@
 title: Your profile
 description: Manage your display name, memberships, security, and account controls.
 published: true
-date: 2026-02-10T06:56:52.871Z
+date: 2026-02-10T07:12:31.514Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:07:59.003Z
 ---
 
-Manage your display name, memberships, email/password, and account controls in one place. Kennel owners cannot delete their account.
+> Manage your display name, memberships, email/password, and account controls in one place. Kennel owners cannot delete their account.
+{.is-info}
+
+## Accessing your profile
+- In the portal header, click the user icon in the top-right.
+- Choose **Profile** from the dropdown to open your profile page.
 
 ![profile-dropdown.png](/profile-dropdown.png)
 
 ## Memberships & display name
 - **Memberships**: See the kennels you belong to and your role in each.
 - **Display name**: Update the name shown to members (hash name or preferred name).
-*(screenshot: profile general tab showing memberships list and display name field)*
+
+![profile.png](/profile.png)
 
 ## Email & password
 - **Change email**: Update your login email and confirm via verification link.

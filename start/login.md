@@ -2,7 +2,7 @@
 title: Logging in
 description: Invites, account setup, email verification, and switching kennels.
 published: true
-date: 2026-02-10T06:31:19.046Z
+date: 2026-02-10T06:32:19.354Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:12:36.996Z
@@ -16,7 +16,7 @@ dateCreated: 2026-02-09T01:12:36.996Z
 - Enter your email and password, then submit.
 
 ## Forgot password
-- Click **Forgot password?** on the login page or go to **https://portal.gohash.app/password/reset**.
+- Click **Forgot password?** on the login page or go to **[https://portal.gohash.app/password/reset](https://portal.gohash.app/password/reset){target="_blank" rel="noopener noreferrer"}**.
 - Enter your email to receive a reset link, you will receive an email with a reset link if the email is correct.
 - Then from the email click the **Reset your password** the link to choose a new password.
 
@@ -35,5 +35,5 @@ dateCreated: 2026-02-09T01:12:36.996Z
 *(screenshot: kennel switcher dropdown showing multiple kennels)*
 
 ## Create a kennel
-- If you need to start a new kennel on goHash, go to **https://portal.gohash.app/create**
+- If you need to start a new kennel on goHash, go to **[https://portal.gohash.app/create](https://portal.gohash.app/create){target="_blank" rel="noopener noreferrer"}**
 - You can learn more about creating a new kennel on the **Create a Kennel** documentation page.

@@ -2,7 +2,7 @@
 title: Logging in
 description: Invites, account setup, email verification, and switching kennels.
 published: true
-date: 2026-02-10T06:39:42.969Z
+date: 2026-02-10T06:41:26.925Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:12:36.996Z
@@ -21,6 +21,8 @@ dateCreated: 2026-02-09T01:12:36.996Z
 - Click **Forgot password?** on the login page or go to **[https://portal.gohash.app/password/reset](https://portal.gohash.app/password/reset){target="_blank" rel="noopener noreferrer"}**.
 - Enter your email to receive a reset link, you will receive an email with a reset link if the email is correct.
 - Then from the email click the **Reset your password** the link to choose a new password.
+
+![forgot-password.png](/forgot-password.png)
 
 ## Email verification
 - After signup or email change, check your inbox for the verification link.

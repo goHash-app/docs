@@ -2,13 +2,13 @@
 title: Support
 description: Get help from the goHash team.
 published: true
-date: 2026-02-10T04:36:10.837Z
+date: 2026-02-10T04:36:43.656Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:33:16.447Z
 ---
 
-> Submit a ticket at **https://support.gohash.app** first.  Provide context so we can help fast.
+> Need help? Submit a ticket at **https://support.gohash.app**.  Provide context so we can help fast.
 {.is-info}
 
 - **Support portal (preferred)**: https://support.gohash.app — create a ticket with details.

@@ -2,13 +2,13 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-10T04:18:09.596Z
+date: 2026-02-10T04:18:36.256Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
 ---
 
-> Upload CSV files to bulk-create members and runs; validate, fix errors, and retry without losing progress.
+> Upload CSV files to bulk-create members, runs and run sites; validate, fix errors, and retry without losing progress.
 {.is-info}
 
 ## What you can import

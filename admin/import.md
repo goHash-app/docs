@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-10T11:13:55.246Z
+date: 2026-02-10T11:15:14.349Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -69,6 +69,17 @@ Notes & validation:
 - Hare/member matching prefers **member short name** (unique, case-insensitive) from `full_name` or `hare` column; falls back to full name if short name not found. If no hare info is provided, `run_name` and `organiser` are required.
 - Run site matching uses existing run site names; create sites first so names resolve.
 - Unknown headers are ignored only if allowed by the importer; otherwise keep to the defined order.
+
+## Run Sites CSV format
+
+Headers **must be in this exact order**:
+1) `name` — required, unique within the kennel
+2) `link` — optional reference URL (e.g., maps link)
+
+Notes & validation:
+- `name` is required and must not duplicate an existing run site (case-insensitive) or another row in the same file.
+- `link` is optional; when present it must be a valid URL.
+- Unknown or out-of-order headers are rejected.
 
 ## Import flow
 

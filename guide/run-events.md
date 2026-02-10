@@ -2,7 +2,7 @@
 title: Runs & Events
 description: Create and manage runs and event updates.
 published: true
-date: 2026-02-09T06:00:13.357Z
+date: 2026-02-10T10:20:54.702Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:50:29.915Z
@@ -17,7 +17,8 @@ dateCreated: 2026-02-09T05:50:29.915Z
 - **Quick actions**: Add Event, Schedule Run.
 - **Status badges**: Scheduled, Published, or Run Site Needed to highlight gaps.
 
-*(screenshot: runs list with filters Upcoming/Past/All)*
+![runs.png](/guide/runs.png)
+*(image: runs list with filters Upcoming/Past/All)*
 
 - **Create a run**: Set date/time, start location, hares, and notes.
 - **Media & routes**: Attach GPX files, maps, and photos.

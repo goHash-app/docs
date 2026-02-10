@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-10T04:18:36.256Z
+date: 2026-02-10T04:23:32.674Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -32,8 +32,8 @@ Required (in order):
 Optional (in order, if used):
 5) `gender` — `male` or `female`
 6) `nationality`
-7) `join_date` — YYYY-MM-DD
-8) `birthday` — YYYY-MM-DD
+7) `birthday` — YYYY-MM-DD
+8) `join_date` — YYYY-MM-DD
 9) `phone`
 10) `email` — valid email
 11) `shirt`

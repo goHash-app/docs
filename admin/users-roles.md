@@ -2,7 +2,7 @@
 title: Users & Roles
 description: Administer member access and permissions.
 published: true
-date: 2026-02-10T02:46:20.670Z
+date: 2026-02-10T10:57:24.257Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:44:41.068Z
@@ -37,7 +37,8 @@ Grant only the roles each user needs (least privilege). A single user account ca
 
 If the invite wasn’t received or expired, use the **resend invitation** action in the table to send it again.
 
-*(screenshot: invite user modal with email and roles selection)*
+![users-invite.png](/guide/users-invite.png)
+*(image: invite user modal with email and roles selection)*
 
 ## Manage existing users
 
@@ -47,7 +48,8 @@ If the invite wasn’t received or expired, use the **resend invitation** action
 - **Resend invite**: For pending users, click resend to reissue the invitation email.
 - **Remove access**: Use the delete action to revoke a user’s access to this kennel (their account can still belong to other kennels).
 
-*(screenshot: users & roles table with search, roles filters, and actions)*
+![users-roles.png](/guide/users-roles.png)
+*(image: users & roles table with search, roles filters, and actions)*
 
 ## Tips
 

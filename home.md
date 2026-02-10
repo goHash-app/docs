@@ -2,7 +2,7 @@
 title: goHash
 description: Official Documentation for goHash
 published: true
-date: 2026-02-09T01:16:36.873Z
+date: 2026-02-10T13:28:52.861Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-08T14:12:05.513Z
@@ -10,6 +10,8 @@ dateCreated: 2026-02-08T14:12:05.513Z
 
 > This official documentation helps you run your kennel on GoHash—from onboarding and roles to creating runs, managing content, and handling billing.
 {.is-info}
+
+![kennel-site.webp](/kennel-site.webp)
 
 ## Getting Started
 

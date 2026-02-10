@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-10T11:13:44.403Z
+date: 2026-02-10T11:13:55.246Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -69,8 +69,6 @@ Notes & validation:
 - Hare/member matching prefers **member short name** (unique, case-insensitive) from `full_name` or `hare` column; falls back to full name if short name not found. If no hare info is provided, `run_name` and `organiser` are required.
 - Run site matching uses existing run site names; create sites first so names resolve.
 - Unknown headers are ignored only if allowed by the importer; otherwise keep to the defined order.
-
-_Screenshot: Runs import form showing CSV upload and result summary._
 
 ## Import flow
 

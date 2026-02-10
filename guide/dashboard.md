@@ -2,7 +2,7 @@
 title: Dashboard
 description: Overview of upcoming runs, recent activity, and notices.
 published: true
-date: 2026-02-10T07:23:46.175Z
+date: 2026-02-10T08:46:00.094Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:09:05.319Z
@@ -16,5 +16,4 @@ dateCreated: 2026-02-09T01:09:05.319Z
 - **Quick Actions**: Buttons for common tasks (e.g., Add New Member, Schedule Run).
 
 ![dashboard.png](/guide/dashboard.png)
-
-*(screenshot: dashboard showing active members card, hareline status card, and quick actions card)*
+*(image: dashboard showing active members card, hareline status card, and quick actions card)*

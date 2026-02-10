@@ -2,7 +2,7 @@
 title: Create a Kennel
 description: Start a kennel so you can manage members, runs, and content.
 published: true
-date: 2026-02-10T06:48:36.524Z
+date: 2026-02-10T06:49:30.702Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:11:59.439Z
@@ -29,7 +29,7 @@ dateCreated: 2026-02-09T01:11:59.439Z
 
  
 ## Steps
-1) Choose **Create a Kennel** on **https://portal.gohash.app**
+1) Choose **Create a Kennel** on **[https://portal.gohash.app/create](https://portal.gohash.app/create){target="_blank" rel="noopener noreferrer"}**
 2) Enter the **Kennel name**.
 3) Set the **Kennel slug** and confirm the previewed URL looks right.
 4) Choose **Timezone**, **City**, and **Country**.

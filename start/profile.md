@@ -2,7 +2,7 @@
 title: Your profile
 description: Manage your display name, memberships, security, and account controls.
 published: true
-date: 2026-02-10T07:18:46.185Z
+date: 2026-02-10T07:44:25.856Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:07:59.003Z
@@ -26,13 +26,16 @@ dateCreated: 2026-02-09T01:07:59.003Z
 ## Email & password
 - **Change email**: Update your login email and confirm via verification link.
 - **Change password**: Enter current password, then set and confirm a new one.
-*(screenshot: security tab showing email change and password fields)*
+
 
 ## Sessions & account management
 - **Log out all sessions**: Force sign-out on all devices for security.
 - **Delete account**: Permanently remove your account (irreversible). **Owners of a kennel cannot delete their account**; transfer ownership first.
 
-*(screenshot: account management section with log out all sessions and delete account buttons)*
+![profile-security.png](/guide/profile-security.png)
+
+*(screenshot: showing email and password fields + account management options)*
+
 
 ## Tips
 - Keep your email verified to access the portal.

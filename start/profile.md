@@ -2,7 +2,7 @@
 title: Your profile
 description: Manage your display name, memberships, security, and account controls.
 published: true
-date: 2026-02-10T07:44:25.856Z
+date: 2026-02-10T08:42:11.992Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:07:59.003Z
@@ -16,12 +16,14 @@ dateCreated: 2026-02-09T01:07:59.003Z
 - Choose **Profile** from the dropdown to open your profile page.
 
 ![profile-dropdown.png](/profile-dropdown.png)
+*(image: showing dropdown with profile and sign out links)*
 
 ## Memberships & display name
 - **Memberships**: See the kennels you belong to and your role in each.
 - **Display name**: Update the name shown to members (hash name or preferred name).
 
 ![profile.png](/profile.png)
+*(image: showing kennel memberships and display name field )*
 
 ## Email & password
 - **Change email**: Update your login email and confirm via verification link.
@@ -33,8 +35,7 @@ dateCreated: 2026-02-09T01:07:59.003Z
 - **Delete account**: Permanently remove your account (irreversible). **Owners of a kennel cannot delete their account**; transfer ownership first.
 
 ![profile-security.png](/guide/profile-security.png)
-
-*(screenshot: showing email and password fields + account management options)*
+*(image: showing email and password fields + account management options)*
 
 
 ## Tips

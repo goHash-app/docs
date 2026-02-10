@@ -2,7 +2,7 @@
 title: Logging in
 description: Invites, account setup, email verification, and switching kennels.
 published: true
-date: 2026-02-10T06:32:19.354Z
+date: 2026-02-10T06:33:30.272Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:12:36.996Z
@@ -36,4 +36,4 @@ dateCreated: 2026-02-09T01:12:36.996Z
 
 ## Create a kennel
 - If you need to start a new kennel on goHash, go to **[https://portal.gohash.app/create](https://portal.gohash.app/create){target="_blank" rel="noopener noreferrer"}**
-- You can learn more about creating a new kennel on the **Create a Kennel** documentation page.
+- You can learn more about creating a new kennel on the **[create a kennel](/start/create-kennel)** documentation page.

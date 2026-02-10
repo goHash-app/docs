@@ -2,7 +2,7 @@
 title: Access & Roles
 description: Roles in GoHash and what each can do.
 published: true
-date: 2026-02-09T05:17:52.129Z
+date: 2026-02-10T06:51:08.501Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T00:57:28.498Z
@@ -25,6 +25,7 @@ dateCreated: 2026-02-09T00:57:28.498Z
 - Review roles periodically and after team changes.
 
 ## How to assign roles
-1) Open **Administration → Users & Roles**.
-2) Find the member and edit roles.
-3) Save and confirm updated access.
+1) Login to the portal → **[https://portal.gohash.app/login](https://portal.gohash.app/login){target="_blank" rel="noopener noreferrer"}**
+2) Go to **Administration → Users & Roles**.
+3) Invite a user and assign a role (or edit the role of an existing user).
+4) Save and confirm updated access.

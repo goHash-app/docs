@@ -2,7 +2,7 @@
 title: Key Concepts
 description: Overview of GoHash’s core concepts: kennels, runs/events, members, users, and roles.
 published: true
-date: 2026-02-10T02:15:37.779Z
+date: 2026-02-10T06:25:23.738Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:15:37.779Z
@@ -18,17 +18,17 @@ dateCreated: 2026-02-10T02:15:37.779Z
 - Holds members, runs/events, content, and settings.
 
 ## Runs & Events
-- **Runs**: Scheduled gatherings with location, date/time, and trail details (attach GPX, photos, notes).
-- **Events**: Activity stream entries tied to runs (status changes, announcements, updates).
-- **Run sites**: Saved start locations you can reuse when scheduling runs.
+- **Runs**: Scheduled runs with run sites, date/time, and run details (report, photos, GPX track, notes).
+- **Events**: Specific event hosted by the kennel (event information, schedule, pricing).
+- **Run sites**: Saved run locations you can reuse when scheduling runs.
 
 ## Members
-- Members of your kennel (Active and inactive).
-- Member data: hash name, full name, contact details, joined date, etc
+- Members of your kennel (active and inactive).
+- Member data: name, hash name, contact details, joined date, etc
 
 ## Users
 - People with a GoHash account who can sign in and manage a kennel.
-- A user can belong to multiple kennels..
+- A user can belong to multiple kennels.
 - Users hold roles that define their permissions.
 
 ## Roles

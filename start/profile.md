@@ -2,7 +2,7 @@
 title: Your profile
 description: Manage your display name, memberships, security, and account controls.
 published: true
-date: 2026-02-10T07:12:31.514Z
+date: 2026-02-10T07:18:46.185Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:07:59.003Z
@@ -31,6 +31,7 @@ dateCreated: 2026-02-09T01:07:59.003Z
 ## Sessions & account management
 - **Log out all sessions**: Force sign-out on all devices for security.
 - **Delete account**: Permanently remove your account (irreversible). **Owners of a kennel cannot delete their account**; transfer ownership first.
+
 *(screenshot: account management section with log out all sessions and delete account buttons)*
 
 ## Tips

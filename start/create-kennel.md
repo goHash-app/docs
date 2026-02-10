@@ -2,7 +2,7 @@
 title: Create a Kennel
 description: Start a kennel so you can manage members, runs, and content.
 published: true
-date: 2026-02-10T06:47:38.963Z
+date: 2026-02-10T06:47:58.982Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:11:59.439Z
@@ -25,6 +25,8 @@ dateCreated: 2026-02-09T01:11:59.439Z
   - **Sign in**: Email and password to use an existing GoHash account.
   
 > If you don’t have a GoHash account yet, you can create one during the kennel creation; if you already have an account, just log in to proceed.
+{.is-info}
+
  
 ## Steps
 1) Choose **Create a Kennel** on **https://portal.gohash.app**

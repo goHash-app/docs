@@ -2,7 +2,7 @@
 title: Logging in
 description: Invites, account setup, email verification, and switching kennels.
 published: true
-date: 2026-02-10T06:33:30.272Z
+date: 2026-02-10T06:39:42.969Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:12:36.996Z
@@ -14,6 +14,8 @@ dateCreated: 2026-02-09T01:12:36.996Z
 ## Login
 - Go to **[https://portal.gohash.app/login](https://portal.gohash.app/login){target="_blank" rel="noopener noreferrer"}**.
 - Enter your email and password, then submit.
+
+![login.png](/login.png)
 
 ## Forgot password
 - Click **Forgot password?** on the login page or go to **[https://portal.gohash.app/password/reset](https://portal.gohash.app/password/reset){target="_blank" rel="noopener noreferrer"}**.

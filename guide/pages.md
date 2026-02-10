@@ -2,7 +2,7 @@
 title: Pages
 description: Create pages for your kennel site.
 published: true
-date: 2026-02-10T02:27:26.162Z
+date: 2026-02-10T10:51:08.112Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:22:21.238Z
@@ -19,5 +19,8 @@ dateCreated: 2026-02-10T02:22:21.238Z
 - **Alias (URL)**: Set the page alias (e.g., /committee).
 - **SEO**: Optional page title, description, and keywords for search/display.
 
-*(screenshot: pages list with statuses and aliases)*
-*(screenshot: page edit form showing status dropdown, alias, and SEO fields)*
+![pages.png](/guide/pages.png)
+*(image: pages list with statuses and aliases)*
+
+![edit-page.png](/guide/edit-page.png)
+*(image:  edit page form showing title, alias, status dropdown and SEO fields)*

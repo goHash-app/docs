@@ -2,13 +2,15 @@
 title: Your profile
 description: Manage your display name, memberships, security, and account controls.
 published: true
-date: 2026-02-09T05:35:06.443Z
+date: 2026-02-10T06:56:52.871Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:07:59.003Z
 ---
 
 Manage your display name, memberships, email/password, and account controls in one place. Kennel owners cannot delete their account.
+
+![profile-dropdown.png](/profile-dropdown.png)
 
 ## Memberships & display name
 - **Memberships**: See the kennels you belong to and your role in each.

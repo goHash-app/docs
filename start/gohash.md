@@ -2,7 +2,7 @@
 title: What is goHash.app
 description: GoHash is a platform for running your kennel: organizing runs and events, managing members and roles, and publishing content for your kennel..
 published: true
-date: 2026-02-10T06:12:06.048Z
+date: 2026-02-10T06:12:30.941Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-08T14:37:00.569Z
@@ -17,10 +17,6 @@ dateCreated: 2026-02-08T14:37:00.569Z
 - Provide a single place to manage your kennel (manage your member list, schedule runs and events) and generate a modern website for the kennel.
 - Reduce admin overhead for committees while keeping data organized and structured.
 
-![portal.webp](/portal.webp)
-
-![kennel-site.webp](/kennel-site.webp)
-
 ## Who it’s for
 - Kennels that want a public-facing site plus kennel management tools.
 - Kennel committees and run organizers who coordinate trails, roles, and communications.
@@ -29,3 +25,7 @@ dateCreated: 2026-02-08T14:37:00.569Z
 - **Runs & hareline**: Publish Hareline and Schedule runs.
 - **Members**: Keep member list up-to-date.
 - **Content**: Manage your website content and pages.
+
+![portal.webp](/portal.webp)
+
+![kennel-site.webp](/kennel-site.webp)

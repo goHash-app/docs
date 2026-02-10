@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-10T04:23:32.674Z
+date: 2026-02-10T11:05:38.110Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -17,7 +17,8 @@ dateCreated: 2026-02-10T04:18:09.596Z
 - **Runs**: Import historical or upcoming runs in bulk. Runs can optionally link to existing run sites and members.
 - **Run sites**: Referenced by name in the runs CSV; add run sites first so names match during import.
 
-_Screenshot: Import page showing upload controls and recent import results._
+![import.png](/admin/import.png)
+*(image: Import page showing upload controls and recent import results.)*
 
 ## Member CSV format
 

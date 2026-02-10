@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-10T11:05:38.110Z
+date: 2026-02-10T11:13:44.403Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -48,7 +48,8 @@ Rules & validation:
 - Gender (if provided) must be `male` or `female`.
 - Unknown or out-of-order headers are rejected.
 
-_Screenshot: Member import form with file picker and validation results._
+![import-log.png](/admin/import-log.png)
+*(image: Member import form with file picker and validation results.)*
 
 ## Runs CSV format
 

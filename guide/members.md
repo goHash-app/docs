@@ -2,7 +2,7 @@
 title: Members
 description: Browse, invite, and manage members of your kennel.
 published: true
-date: 2026-02-10T07:36:45.385Z
+date: 2026-02-10T07:37:12.816Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:42:43.003Z
@@ -24,4 +24,4 @@ dateCreated: 2026-02-09T05:42:43.003Z
 - **Actions**: Save Member to create/update; Cancel to return to the list.
 
 ![create-edit-member.png](/guide/create-edit-member.png)
-*(screenshot: add member form showing fields and status dropdown)*
+*(screenshot: create or edit a member)*

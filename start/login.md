@@ -2,7 +2,7 @@
 title: Logging in
 description: Invites, account setup, email verification, and switching kennels.
 published: true
-date: 2026-02-10T06:41:26.925Z
+date: 2026-02-10T06:44:34.398Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:12:36.996Z
@@ -36,7 +36,8 @@ dateCreated: 2026-02-09T01:12:36.996Z
 ## Switching kennels
 - If you have access to multiple kennels, on login you will be asked to select which kennel you want to login to.
 - After login if you want to switch, use the kennel switcher at the top of the menu to switch between kennels you belong to.
-*(screenshot: kennel switcher dropdown showing multiple kennels)*
+
+![kennel-selector.png](/kennel-selector.png)
 
 ## Create a kennel
 - If you need to start a new kennel on goHash, go to **[https://portal.gohash.app/create](https://portal.gohash.app/create){target="_blank" rel="noopener noreferrer"}**

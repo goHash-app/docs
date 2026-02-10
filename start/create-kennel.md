@@ -2,7 +2,7 @@
 title: Create a Kennel
 description: Start a kennel so you can manage members, runs, and content.
 published: true
-date: 2026-02-09T03:24:17.283Z
+date: 2026-02-10T06:47:38.963Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:11:59.439Z
@@ -10,6 +10,8 @@ dateCreated: 2026-02-09T01:11:59.439Z
 
 > A designated committee member creates the kennel and becomes the **Owner**. After creation, you can invite other users and assign roles with the access they need.
 {.is-info}
+
+![create-kennel.png](/create-kennel.png)
 
 ## Fields on this page
 - **Kennel name**: The name of your Hash kennel/chapter.

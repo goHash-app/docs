@@ -2,7 +2,7 @@
 title: Menu
 description: Organize navigation links for your site.
 published: true
-date: 2026-02-10T02:35:52.569Z
+date: 2026-02-10T10:54:11.238Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:35:52.569Z
@@ -17,5 +17,8 @@ dateCreated: 2026-02-10T02:35:52.569Z
 - **Built-in views**: Home, Upcoming Runs, Past Runs are provided; Home menu item cannot be removed.
 - **Visibility**: Toggle an item on/off without deleting it.
 
-*(screenshot: menu list with drag handles, nested items, and built-in views)*
-*(screenshot: add/edit menu item form showing destination type, parent selector, and visibility toggle)*
+![menus.png](/guide/menus.png)
+*(image: menu list with drag handles, nested items, and built-in views)*
+
+![edit-menu.png](/guide/edit-menu.png)
+*(image: add/edit menu item form showing destination type, parent selector, and visibility toggle)*

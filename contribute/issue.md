@@ -2,17 +2,17 @@
 title: Report an issue
 description: Share bugs and errors so we can fix them quickly.
 published: true
-date: 2026-02-10T04:42:12.094Z
+date: 2026-02-10T04:42:57.858Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:42:12.093Z
 ---
 
-> Report bugs via the support portal first; use email only as backup. Clear details help us fix issues faster.
+> Report bugs via **https://support.gohash.app**. Clear details help us fix issues faster.
 {.is-info}
 
 ## Where to report
-- **Support portal (preferred)**: https://support.gohash.app — create a ticket for the bug.
+- **Support portal**: https://support.gohash.app — create a ticket for the bug.
 - **Email (backup)**: support@gohash.app
 
 ## What to include

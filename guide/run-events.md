@@ -2,7 +2,7 @@
 title: Runs & Events
 description: Create and manage runs and event updates.
 published: true
-date: 2026-02-10T10:32:17.130Z
+date: 2026-02-10T10:32:25.518Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:50:29.915Z
@@ -36,4 +36,4 @@ dateCreated: 2026-02-09T05:50:29.915Z
 - **Status**: Draft/Published with date-based visibility.
 
 ![edit-event.png](/guide/edit-event.png)
-*(image: edit event: general, content, venue & schedule, pricing & add-ons, registration, contact info, settings)*
+*(image: edit event > general, content, venue & schedule, pricing & add-ons, registration, contact info, settings)*

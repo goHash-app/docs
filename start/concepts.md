@@ -2,13 +2,11 @@
 title: Key Concepts
 description: Overview of GoHash’s core concepts: kennels, runs/events, members, users, and roles.
 published: true
-date: 2026-02-10T06:25:23.738Z
+date: 2026-02-10T06:25:58.296Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:15:37.779Z
 ---
-
-# Key concepts
 
 > Key concepts you’ll use across GoHash: kennels, runs/events, members, users, and roles.
 {.is-info}

@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-14T04:39:17.512Z
+date: 2026-02-14T04:41:03.983Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -42,7 +42,8 @@ Optional (in order, if used):
 13) `notes`
 
 Rules & validation:
-- `short_name` must be unique within the kennel (no duplicates in file or existing members).
+- `short_name` is mandatory and must be unique within the kennel (no duplicates in file or existing members) and is used in the run import matching.
+- `full_name` is optional but meant as full out written name of a member,
 - Dates must be YYYY-MM-DD.
 - Email must be a valid address.
 - Gender (if provided) must be `male` or `female`.

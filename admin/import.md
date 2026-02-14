@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-14T03:44:56.066Z
+date: 2026-02-14T04:39:17.512Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -56,17 +56,17 @@ Rules & validation:
 Headers **must start in exact order**:
 1) `run`
 2) `date` — YYYY-MM-DD
-3) `full_name` — hare/member name (optional; see below)
+3) `short_name` — short name of member (required; see below)
 4) `runsite` — matches existing run site name (or `unknown`)
 5) `run_name` — most runs won’t have a special name; use only for special runs
-6) `organiser` — required when no hare/full_name provided; also seeds run groups
+6) `organiser` — required when no short_name provided; also seeds run groups
 
-Optional headers (in order if included): `hare`, `notes`
+Optional headers (in order if included): `notes`
 
 Notes & validation:
 - `run` must be a unique positive integer.
 - `date` must be YYYY-MM-DD.
-- Hare/member matching prefers **member short name** (unique, case-insensitive) from `full_name` or `hare` column; falls back to full name if short name not found. If no hare info is provided, `run_name` and `organiser` are required.
+- `short_name` must match a members **short name** (unique, case-insensitive) 
 - Run site matching uses existing run site names; create sites first so names resolve.
 - Unknown headers are ignored only if allowed by the importer; otherwise keep to the defined order.
 

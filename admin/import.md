@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-03-31T04:15:02.128Z
+date: 2026-03-31T07:17:13.068Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -83,7 +83,7 @@ Headers **must be in this exact order**:
 - `directions` — optional
 - `latitude` — optional decimal latitude
 - `longitude` — optional decimal longitude
-- `google_maps_url` — optional Google Maps link
+- `google_url` — optional Google Maps link
 - `waze_url` — optional Waze link
 - `what3words_url` — optional what3words link
 - `other_map_1_label` — optional custom map link label

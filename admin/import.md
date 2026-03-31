@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-03-31T04:13:51.010Z
+date: 2026-03-31T04:15:02.128Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -93,13 +93,13 @@ Headers **must be in this exact order**:
 Notes & validation:
 - name is required and must not duplicate an existing run site, case-insensitively, or another row in the same file.
 - latitude and longitude, when present, must be valid numbers.
-- All URL fields are optional, but when present must be valid http:// or https:// URLs.
+- All URL fields are optional, but when present must be valid `https://` URLs.
 - Unknown, missing, or out-of-order headers are rejected.
 
 Known map providers use dedicated URL columns:
 - Google Maps > google_maps_url 
 - Waze > waze_url 
-- What 3 Words > what3words_url
+- What3Words > what3words_url
 
 Custom links use the other_map_1_* fields:
 

@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-02-27T11:14:19.102Z
+date: 2026-03-31T04:13:51.010Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -75,13 +75,36 @@ Notes & validation:
 ## Run Sites CSV format
 
 Headers **must be in this exact order**:
-1) `name` — required, unique within the kennel
-2) `link` — optional reference URL (e.g., maps link)
+- `name` — required, unique
+- `description` — optional
+- `address` — optional
+- `city` — optional
+- `region` — optional region or country text used to derive the country code
+- `directions` — optional
+- `latitude` — optional decimal latitude
+- `longitude` — optional decimal longitude
+- `google_maps_url` — optional Google Maps link
+- `waze_url` — optional Waze link
+- `what3words_url` — optional what3words link
+- `other_map_1_label` — optional custom map link label
+- `other_map_1_kind` — optional custom map link type
+- `other_map_1_url` — optional custom map link URL
 
 Notes & validation:
-- `name` is required and must not duplicate an existing run site (case-insensitive) or another row in the same file.
-- `link` is optional; when present it must be a valid URL.
-- Unknown or out-of-order headers are rejected.
+- name is required and must not duplicate an existing run site, case-insensitively, or another row in the same file.
+- latitude and longitude, when present, must be valid numbers.
+- All URL fields are optional, but when present must be valid http:// or https:// URLs.
+- Unknown, missing, or out-of-order headers are rejected.
+
+Known map providers use dedicated URL columns:
+- Google Maps > google_maps_url 
+- Waze > waze_url 
+- What 3 Words > what3words_url
+
+Custom links use the other_map_1_* fields:
+
+- if other_map_1_url is present, other_map_1_label and other_map_1_kind are required
+- other_map_1_kind must be lowercase letters, numbers, or underscores only
 
 ## Import flow
 

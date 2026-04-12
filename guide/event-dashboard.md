@@ -2,7 +2,7 @@
 title: Event Dashboard
 description: 
 published: true
-date: 2026-04-12T11:54:40.525Z
+date: 2026-04-12T12:02:26.924Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-12T11:54:40.525Z
@@ -11,7 +11,7 @@ dateCreated: 2026-04-12T11:54:40.525Z
 > After publishing an event, use the Event Dashboard to monitor registrations, confirm payment receipts and keep add-on demand on track—all without leaving the portal.
 {.is-info}
 
-## Open the dashboard
+## Open the Dashboard
 1. In the portal, go to **Runs & Events**.
 2. Select an event and choose **Event Dashboard** icon from the actions menu.
 3. Tabs appear for **Registrations**, **Finances**, **Add-ons & Inventory**. 
@@ -22,17 +22,22 @@ Event Masters and admins with event permissions can access all tabs.
 
 ## Registrations tab
 - **Headline metrics**: Total registrations, confirmed vs waiting payment, and total revenue collected to date.
-- **Table columns**: Registration code, status, amount paid vs due, ticket type, add-on chips, latest activity.
+- **Table columns**: Actor, Registration code, ticket type, Registartion status, Payment Status and add-ons.
 - **Row actions**:
   - Edit registration (opens the same editor used on the public form but with admin-only fields).
   - Delete registration (Need to confirm in modal window; non-reversable).
-
-- **Registration statuses** (`pending`, `waiting_payment`, `confirmed`, `rejected`, `cancelled`, `refunded`).
+- **Status** meanings:
+  - `pending`
+  - `waiting_payment`
+  - `confirmed`
+  - `rejected`
+  - `cancelled`
+  - `refunded`
 - **Filters**: Narrow by status, payment completeness, registration type, or add-on.
 
 ## Finances & receipts tab
 - Shows transaction timeline grouped by order.
-- Each transaction lists amount, direction (in/out), payment method, who uploaded the receipt, and review notes.
+- Each transaction lists amount, direction (in/out), payment method, status and actor.
 - Status meanings:
   - `submitted`: organizer declared a payment but has not uploaded proof yet.
   - `under_review`: receipt uploaded; awaiting staff decision.
@@ -43,15 +48,14 @@ Event Masters and admins with event permissions can access all tabs.
 
 ### Receipt workflow
 1. Click a transaction entry.
-2. Review attached images (multiple files supported per transaction).
+2. Review attached image(s).
 3. Verify amount and payer reference; adjust if partial.
 4. Approve (`accepted`) or reject with a note (`rejected`). Status updates instantly reflect on both dashboard and the registrant’s view.
-5. Need to refund? Create a new transaction with direction **out** and mark the corresponding order as **refunded** or **cancelled**.
 
 ## Add-ons & inventory tab
 - Aggregates add-on selections from orders so you can plan shirts, meals, transport, etc.
-- Shows totals per item and per variant (e.g., "Event Shirt – Size L").
-- Use this data to trigger reorders or close specific add-ons when inventory runs low.
+- Shows totals per item and per variant (e.g., "Shirt – Size L").
+- Use this data used when ordering addons that need to be produced before the event. 
 
 ## Common admin workflows
 1. **Approve a new registration**

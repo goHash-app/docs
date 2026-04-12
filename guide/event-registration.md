@@ -1,8 +1,8 @@
 ---
-title: Event Registration
+title: Event Registration Setup
 description: 
 published: true
-date: 2026-04-12T13:10:43.939Z
+date: 2026-04-12T13:11:00.128Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-12T13:10:43.939Z

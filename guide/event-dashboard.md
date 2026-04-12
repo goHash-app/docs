@@ -2,7 +2,7 @@
 title: Event Dashboard
 description: 
 published: true
-date: 2026-04-12T12:10:52.417Z
+date: 2026-04-12T12:16:43.911Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-12T11:54:40.525Z
@@ -51,9 +51,8 @@ dateCreated: 2026-04-12T11:54:40.525Z
 
 ## Actions tab
 - Primary surface for reviewing and approving payment receipts.
-- Lists recent submissions with actor, status chips, and quick accept/reject buttons.
-- Opening a row reveals the full receipt set plus notes, matching what appears in Finances.
-- Provides shortcuts to resend edit links, trigger refund flows, or jump into the registration editor if more context is needed.
+- Lists recent payment receipt submissions.
+- Click **Reveiw Payment Receipt**  to reveal the full receipt to accept/reject the payment receipt.
 - When a receipt is accepted here, the related transaction and registration/order statuses update instantly; rejecting captures the reviewer note and keeps the registration in `waiting_payment`.
 
 ## Common admin workflows

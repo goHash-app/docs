@@ -2,7 +2,7 @@
 title: Event Registration Setup
 description: 
 published: true
-date: 2026-04-12T13:15:52.386Z
+date: 2026-04-12T15:07:19.177Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-12T13:10:43.939Z
@@ -12,7 +12,7 @@ dateCreated: 2026-04-12T13:10:43.939Z
 {.is-info}
 
 ## 1. Choose the registration mode
-Open **Runs & Events → Events → Edit → Registration & Pricing** tab.
+Open **Runs & Events → Create or edit Event → Registration & Pricing** tab.
 
 - **Registration** dropdown:
   - `None`: hide the form; only marketing content appears.

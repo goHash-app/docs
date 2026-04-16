@@ -2,20 +2,20 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-03-31T07:17:13.068Z
+date: 2026-04-16T21:24:16.112Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
 ---
 
-> Upload CSV files to bulk-create members, runs and run sites; validate, fix errors, and retry without losing progress.
+> Upload CSV files to bulk-create members, runs and locations; validate, fix errors, and retry without losing progress.
 {.is-info}
 
 ## What you can import
 
 - **Members (membership)**: Create multiple members at once via CSV.
-- **Runs**: Import historical or upcoming runs in bulk. Runs can optionally link to existing run sites and members.
-- **Run sites**: Referenced by name in the runs CSV; add run sites first so names match during import.
+- **Runs**: Import historical or upcoming runs in bulk. Runs can optionally link to existing locations and members.
+- **Locations**: Referenced by name in the runs CSV; add locations first so names match during import.
 
 ![import.png](/admin/import.png)
 *(image: Import page showing upload controls and recent import results.)*
@@ -59,7 +59,7 @@ Headers **must start in exact order**:
 1) `run`
 2) `date` — YYYY-MM-DD
 3) `short_name` — short name of member (required; see below)
-4) `runsite` — matches existing run site name (or `unknown`)
+4) `runsite` — matches existing locations name (or `unknown`)
 5) `run_name` — most runs won’t have a special name; use only for special runs
 6) `organiser` — required when no short_name provided; also seeds run groups
 
@@ -69,10 +69,10 @@ Notes & validation:
 - `run` must be a unique positive integer.
 - `date` must be YYYY-MM-DD.
 - `short_name` must match a members **short name** (unique, case-insensitive) 
-- Run site matching uses existing run site names; create sites first so names resolve.
+- Locations matching uses existing locations names; create sites first so names resolve.
 - Unknown headers are ignored only if allowed by the importer; otherwise keep to the defined order.
 
-## Run Sites CSV format
+## Locations CSV format
 
 Headers **must be in this exact order**:
 - `name` — required, unique
@@ -91,7 +91,7 @@ Headers **must be in this exact order**:
 - `other_map_1_url` — optional custom map link URL
 
 Notes & validation:
-- name is required and must not duplicate an existing run site, case-insensitively, or another row in the same file.
+- name is required and must not duplicate an existing locations, case-insensitively, or another row in the same file.
 - latitude and longitude, when present, must be valid numbers.
 - All URL fields are optional, but when present must be valid `https://` URLs.
 - Unknown, missing, or out-of-order headers are rejected.

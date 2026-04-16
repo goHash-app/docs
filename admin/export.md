@@ -2,7 +2,7 @@
 title: Export
 description: Download members, runs, or run sites as CSV.
 published: true
-date: 2026-04-16T21:25:53.590Z
+date: 2026-04-16T21:26:07.010Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:17:18.476Z
@@ -17,7 +17,7 @@ dateCreated: 2026-02-10T04:17:18.476Z
 - **Locations**: Saved start locations and reference links.
 
 ![export.png](/admin/export.png)
-*(image: export page showing Members, Runs, Run Sites option and Start Export button)*
+*(image: export page showing Members, Runs, Locations option and Start Export button)*
 
 ## How to export
 1) Open **Export Data** in the portal.

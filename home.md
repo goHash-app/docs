@@ -2,7 +2,7 @@
 title: goHash
 description: Official Documentation for goHash
 published: true
-date: 2026-02-10T13:28:52.861Z
+date: 2026-04-16T21:01:58.599Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-08T14:12:05.513Z
@@ -26,7 +26,7 @@ dateCreated: 2026-02-08T14:12:05.513Z
 - **Dashboard**: Upcoming runs, recent activity, and notices.
 - **Members**: Browsing the directory, viewing member details, and invite basics.
 - **Runs & Events**: Creating and editing runs/events, timelines, cancellations, and attachments (GPX, photos).
-- **Run Sites**: Adding and reusing start locations for runs.
+- **Locations**: Adding and reusing locations for runs and on on's.
 - **Pages**: Creating public or member-only pages, editing content, previews, and publishing.
 - **Menu**: Organizing navigation links for your site.
 

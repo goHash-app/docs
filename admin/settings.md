@@ -2,7 +2,7 @@
 title: Settings
 description: Manage kennel profile, domains, branding, SEO and preferences
 published: true
-date: 2026-04-16T21:44:25.066Z
+date: 2026-04-16T21:54:57.784Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:24:45.110Z
@@ -55,9 +55,9 @@ dateCreated: 2026-02-10T04:24:45.110Z
 Enable or disable features across your kennel portal and public site:
 
 **Location Features**
-- **Allow multiple locations per run** — Enables display of multiple location on runs (e.g., run site, on on, on down).
-- **Allow multiple links per location** — Enables each location to have multiple "map" links (e.g., google maps, waze, what3words, etc).
-- **Allow custom run locations** — Allows you to override a location's details with custom details (Driving directions, gps coordinates, map links, etc.) by showin a Custom Location checkbox to override location details when editing runs.
+- **Multiple locations per run** — Enables multiple locations per run (e.g., run site, on on, on down).
+- **Multiple links per location** — Enables each location to have multiple "map" links (e.g., google maps, waze, what3words, etc).
+- **Custom run locations overrides** — Allows you to override a location's details with custom details (Driving directions, gps coordinates, map links, etc.) by showin a Custom Location checkbox to override location details when editing runs.
 
 **Run Types**
 - **Use run types** — Allows defining "Run Types" (Normal, Celebration, Virgin, etc.) on "Settings > Run Options", which enables you to select a "Run Type" when creating/editing runs.

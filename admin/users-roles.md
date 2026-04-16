@@ -2,7 +2,7 @@
 title: Users & Roles
 description: Administer member access and permissions.
 published: true
-date: 2026-02-10T10:57:24.257Z
+date: 2026-04-16T21:19:57.980Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:44:41.068Z
@@ -20,7 +20,7 @@ dateCreated: 2026-02-10T02:44:41.068Z
 
 - **Owner** – Full control over all kennel features and billing; can assign any role.
 - **Admin** – Nearly full control of kennel operations and settings (excluding owner-only actions).
-- **Hare Raiser** – Manages runs and run sites.
+- **Hare Raiser** – Manages runs and locations.
 - **Hash Cash** – Manages billing, payments, and finance.
 - **On Sec** – Manages members.
 - **Scribe** – Manages pages and menu/navigation.

@@ -2,7 +2,7 @@
 title: Key Concepts
 description: Overview of GoHash’s core concepts: kennels, runs/events, members, users, and roles.
 published: true
-date: 2026-04-16T21:02:55.410Z
+date: 2026-04-16T21:22:10.153Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:15:37.779Z
@@ -20,7 +20,7 @@ dateCreated: 2026-02-10T02:15:37.779Z
 - Member data: name, hash name, contact details, joined date, etc
 
 ## Runs & Events
-- **Runs**: Scheduled runs with run sites, date/time, and run details (report, photos, GPX track, notes).
+- **Runs**: Scheduled runs with locations, date/time, and run details (report, photos, GPX track, notes).
 - **Events**: Specific event hosted by the kennel (event information, schedule, pricing).
 - **Locations**: Saved locations you can reuse when scheduling runs and on on's.
 

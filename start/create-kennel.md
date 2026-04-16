@@ -2,7 +2,7 @@
 title: Create a Kennel
 description: Start a kennel so you can manage members, runs, and content.
 published: true
-date: 2026-02-10T06:49:30.702Z
+date: 2026-04-16T21:21:17.843Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T01:11:59.439Z
@@ -38,6 +38,6 @@ dateCreated: 2026-02-09T01:11:59.439Z
 
 ## What’s next
 - Invite users and assign roles (Owner, Admin, Hare Raiser, Hash Cash, On Sec, Scribe) to manage your kennel.
-- Add members and run sites, then create your first run.
+- Add members and locations, then create your first run.
 - Set up pages and menu for your public site.
 

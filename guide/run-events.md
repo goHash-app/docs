@@ -2,7 +2,7 @@
 title: Runs & Events
 description: Create and manage runs and event updates.
 published: true
-date: 2026-02-10T10:32:25.518Z
+date: 2026-04-16T21:18:25.766Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:50:29.915Z
@@ -13,15 +13,15 @@ dateCreated: 2026-02-09T05:50:29.915Z
 
 ## Runs & Events 
 - **Filters**: Upcoming, Past, All.
-- **Columns**: Run #, Date, Hare, Run Site, Status, Actions (edit/delete).
+- **Columns**: Run #, Date, Hare, Location, Status, Actions (edit/delete).
 - **Quick actions**: Add Event, Schedule Run.
-- **Status badges**: Scheduled, Published, or Hare & Run Site Needed to highlight gaps.
+- **Status badges**: Scheduled, Published, or Hare & Location Needed to highlight gaps.
 
 ![runs.png](/guide/runs.png)
 *(image: runs list with filters Upcoming/Past/All)*
 
 ## Creating or editing a run
-- **General Details**: Run number, date, run site, hare, run name/group.
+- **General Details**: Run number, date, location(s), hare, run name/group.
 - **Report & Notes**: Run report and internal notes.
 - **Media & Files**: GPX/routes, maps, and photos of the trail.
 - **Stats & Data**: Attendees, distance (km), elevation (m).

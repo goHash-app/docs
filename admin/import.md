@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-04-16T21:24:16.112Z
+date: 2026-04-16T22:43:36.330Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -76,6 +76,7 @@ Notes & validation:
 
 Headers **must be in this exact order**:
 - `name` — required, unique
+- `label` — optional
 - `description` — optional
 - `address` — optional
 - `city` — optional
@@ -83,12 +84,7 @@ Headers **must be in this exact order**:
 - `directions` — optional
 - `latitude` — optional decimal latitude
 - `longitude` — optional decimal longitude
-- `google_url` — optional Google Maps link
-- `waze_url` — optional Waze link
-- `what3words_url` — optional what3words link
-- `other_map_1_label` — optional custom map link label
-- `other_map_1_kind` — optional custom map link type
-- `other_map_1_url` — optional custom map link URL
+- then repeat link triplets in order for each map link: `url_1`, `label_1`, `other_1`, `url_2`, `label_2`, `other_2`, ... (up to 10 links)
 
 Notes & validation:
 - name is required and must not duplicate an existing locations, case-insensitively, or another row in the same file.
@@ -96,15 +92,14 @@ Notes & validation:
 - All URL fields are optional, but when present must be valid `https://` URLs.
 - Unknown, missing, or out-of-order headers are rejected.
 
-Known map providers use dedicated URL columns:
-- Google Maps > google_maps_url 
-- Waze > waze_url 
-- What3Words > what3words_url
+Link triplet rules:
+- if `url_n` is provided, `label_n` is required
+- predefined `label_n` values map directly to built-in types: `google`, `waze`, `what3words`, `openstreet`
+- for non-predefined labels, `other_n` is required and must be lowercase letters, numbers, or underscores
 
-Custom links use the other_map_1_* fields:
-
-- if other_map_1_url is present, other_map_1_label and other_map_1_kind are required
-- other_map_1_kind must be lowercase letters, numbers, or underscores only
+Custom links:
+- use any custom value in `label_n`
+- set `other_n` with your custom type identifier (letters/numbers/underscores)
 
 ## Import flow
 

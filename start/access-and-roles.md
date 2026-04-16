@@ -2,7 +2,7 @@
 title: Access & Roles
 description: Roles in GoHash and what each can do.
 published: true
-date: 2026-02-10T06:51:08.501Z
+date: 2026-04-16T21:20:28.896Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T00:57:28.498Z
@@ -14,7 +14,7 @@ dateCreated: 2026-02-09T00:57:28.498Z
 ## Roles
 - **Owner**: Full access to everything, including billing, domains, settings, and deleting/transfer actions. Can invite others and assign any role. Role can not be removed by others. Owner can transfer the ownership to another admin.
 - **Admin**: Full access to everything, including billing, domains, settings, and deleting/transfer actions. Can invite others and assign any role. But Admin role can be removed by owner.
-- **Hare Raiser**: Only access to create and edit runs/events, attach GPX/photos, manage run sites.
+- **Hare Raiser**: Only access to create and edit runs/events, attach GPX/photos, manage locations.
 - **Hash Cash**: Only access to Billing and finance (view/pay invoices, manage plans).
 - **On Sec**: Only access to Members
 - **Scribe**: Only access to Pages and menu content (create, edit, publish).

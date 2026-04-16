@@ -2,7 +2,7 @@
 title: Settings
 description: Manage kennel profile, domains, branding, SEO and preferences
 published: true
-date: 2026-04-16T21:42:04.686Z
+date: 2026-04-16T21:44:25.066Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:24:45.110Z
@@ -64,9 +64,9 @@ Enable or disable features across your kennel portal and public site:
 - **Allow pricing override on runs** — If a pricing tier is defined on a Run Type, this option allows you to enable per run override controls when editing runs with run types.
 
 **Homepage Blocks**
-- **Homepage: Show latest run report block** — Displays the run report block on your public homepage.
-- **Homepage: Show upcoming run block** — Shows the next run block on your public homepage.
-- **Homepage: Show driving directions** — Displays the driving directions card inside the next run block.
+- **Homepage: Show latest run report block** — Displays the "Latest Run Report" block on your public homepage.
+- **Homepage: Show upcoming run block** — Displays the "Next Run" details block on your public homepage.
+- **Homepage: Show driving directions** — Displays the "Driving Directions" card inside the "Next Run" block. Usefull if you want to display driving directions for next run.
 
 ![settings-preferences.png](/admin/settings-preferences.png)
 *(image: Settings → Preferences tab with timezone, date format, and feature toggles)*

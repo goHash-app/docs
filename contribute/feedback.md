@@ -2,7 +2,7 @@
 title: Feedback
 description: Let us know what you think of goHash
 published: true
-date: 2026-02-10T04:29:38.168Z
+date: 2026-04-16T21:22:48.264Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:26:32.491Z
@@ -18,7 +18,7 @@ dateCreated: 2026-02-10T04:26:32.491Z
 - Desired outcome (what “good” looks like).
 
 ## Examples of good feedback
-- “When scheduling runs, selecting a run site is slow because the list isn’t searchable. Please add search by name.”
+- “When scheduling runs, selecting a location is slow because the list isn’t searchable. Please add search by name.”
 - “Need a way to export members with custom fields for our annual audit; ideally CSV with gender and join date.”
 - “Menu reorder should allow collapsing sections; with 20+ links it’s hard to drag.”
 

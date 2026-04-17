@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-04-17T08:35:46.914Z
+date: 2026-04-17T08:42:55.248Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -95,7 +95,9 @@ Headers must be in this exact order:
 - Hares are matched by member `short_name` (case-insensitive), so short names must be unique.
 - `run_group` and `run_type_name` are resolved by label/name (not by exported IDs).
 - Advanced `locations_json` location links are resolved by `location_name`; raw `location_id` from source CSV is not trusted across kennels.
+- `source_type` can define one of two parameters `source_type: "location"` or `source_type: "custom"`. 
 - If a run location entry is `source_type: "custom"` and still has a valid `location_name`, importer keeps it linked to the matching saved location while preserving custom overrides.
+- If a run location entry is `source_type: "location"`, importer onlylinks it to the matching saved location and ignores custom overrides.
 
 ### Advanced JSON field examples
 
@@ -156,10 +158,7 @@ Use valid JSON text in these columns.
 
 ### Recommended order for Advanced runs import
 
-Import **Settings first**, then Runs (Advanced), so dependencies already exist in the target kennel:
-- feature toggles
-- run groups
-- run types (and pricing tiers)
+Import **Settings, Members & Locations first**, make sure the keys and names match with your run data. Then import Runs (Advanced), so dependencies already exist in the target kennel.
 
 ## Locations CSV format
 

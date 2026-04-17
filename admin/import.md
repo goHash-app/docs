@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-04-17T07:26:03.223Z
+date: 2026-04-17T08:35:46.914Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -97,10 +97,62 @@ Headers must be in this exact order:
 - Advanced `locations_json` location links are resolved by `location_name`; raw `location_id` from source CSV is not trusted across kennels.
 - If a run location entry is `source_type: "custom"` and still has a valid `location_name`, importer keeps it linked to the matching saved location while preserving custom overrides.
 
-### Important limitation (Advanced runs)
+### Advanced JSON field examples
 
-- `gpx_url`, `images_json`, and `files_json` values are intentionally **not imported** by policy.
-- Those fields may appear in exported CSV for portability/audit, but import skips file path ingestion to avoid linkage problems.
+Use valid JSON text in these columns.
+
+`locations_json` example:
+
+```json
+[
+  {
+    "sort_order": 1,
+    "type": "run_site",
+    "label": "Run Site",
+    "source_type": "custom",
+    "location_name": "Sausage Corner",
+    "custom_name": "Meat Corner",
+    "custom_latitude": 5.3361,
+    "custom_longitude": 100.3078,
+    "custom_directions": null,
+    "custom_address_details": null,
+    "map_links": [
+      {
+        "provider": "waze",
+        "label": "Waze linkyyy",
+        "url": "https://maps.waze.com",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "sort_order": 2,
+    "type": "run_site",
+    "label": "Run Site",
+    "source_type": "location",
+    "location_name": "Sausage Corner",
+    "map_links": []
+  },
+  {
+    "sort_order": 3,
+    "type": "on_on",
+    "label": "On On",
+    "source_type": "location",
+    "location_name": "Bonsai",
+    "map_links": []
+  }
+]
+```
+
+`hares_json` example:
+
+```json
+[
+  { "short_name": "Test" },
+  { "short_name": "Alejandro" },
+  { "short_name": "Example" }
+]
+```
 
 ### Recommended order for Advanced runs import
 

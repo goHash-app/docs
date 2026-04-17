@@ -2,20 +2,21 @@
 title: Import
 description: Bulk import members, runs or run sites via CSV.
 published: true
-date: 2026-04-16T22:43:36.330Z
+date: 2026-04-17T07:26:03.223Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
 ---
 
-> Upload CSV files to bulk-create members, runs and locations; validate, fix errors, and retry without losing progress.
+> Upload CSV files to bulk-create members, runs, locations, and settings; validate, fix errors, and retry without losing progress.
 {.is-info}
 
 ## What you can import
 
 - **Members (membership)**: Create multiple members at once via CSV.
-- **Runs**: Import historical or upcoming runs in bulk. Runs can optionally link to existing locations and members.
+- **Runs (Basic / Advanced)**: Import historical or upcoming runs in bulk. Advanced mode supports richer metadata and structured JSON fields.
 - **Locations**: Referenced by name in the runs CSV; add locations first so names match during import.
+- **Settings**: Import feature flags, run groups, run types, and kennel defaults (`timezone`, `default_currency`, `date_format`).
 
 ![import.png](/admin/import.png)
 *(image: Import page showing upload controls and recent import results.)*
@@ -55,22 +56,58 @@ Rules & validation:
 
 ## Runs CSV format
 
-Headers **must start in exact order**:
-1) `run`
-2) `date` — YYYY-MM-DD
-3) `short_name` — short name of member (required; see below)
-4) `runsite` — matches existing locations name (or `unknown`)
-5) `run_name` — most runs won’t have a special name; use only for special runs
-6) `organiser` — required when no short_name provided; also seeds run groups
+Runs import supports **two modes**.
 
-Optional headers (in order if included): `notes`
+### Runs CSV (Basic)
 
-Notes & validation:
-- `run` must be a unique positive integer.
-- `date` must be YYYY-MM-DD.
-- `short_name` must match a members **short name** (unique, case-insensitive) 
-- Locations matching uses existing locations names; create sites first so names resolve.
-- Unknown headers are ignored only if allowed by the importer; otherwise keep to the defined order.
+Headers must be in this exact order:
+1) `run_number`
+2) `run_date` — YYYY-MM-DD
+3) `run_name` — optional
+4) `run_group` — optional
+5) `location_name` — optional location lookup name
+6) `hares` — optional semicolon-separated member short names
+
+### Runs CSV (Advanced)
+
+Headers must be in this exact order:
+1) `run_number`
+2) `run_date`
+3) `run_name`
+4) `run_group`
+5) `location_name`
+6) `hares`
+7) `notes`
+8) `report`
+9) `attendees`
+10) `distance_km`
+11) `elevation_m`
+12) `run_type_name`
+13) `run_type_pricing_override_enabled`
+14) `run_type_pricing_override_data_json`
+15) `locations_json`
+16) `hares_json`
+
+### Runs notes, prerequisites, and validation
+
+- `run_number` must be a positive integer.
+- `run_date` must be YYYY-MM-DD.
+- Hares are matched by member `short_name` (case-insensitive), so short names must be unique.
+- `run_group` and `run_type_name` are resolved by label/name (not by exported IDs).
+- Advanced `locations_json` location links are resolved by `location_name`; raw `location_id` from source CSV is not trusted across kennels.
+- If a run location entry is `source_type: "custom"` and still has a valid `location_name`, importer keeps it linked to the matching saved location while preserving custom overrides.
+
+### Important limitation (Advanced runs)
+
+- `gpx_url`, `images_json`, and `files_json` values are intentionally **not imported** by policy.
+- Those fields may appear in exported CSV for portability/audit, but import skips file path ingestion to avoid linkage problems.
+
+### Recommended order for Advanced runs import
+
+Import **Settings first**, then Runs (Advanced), so dependencies already exist in the target kennel:
+- feature toggles
+- run groups
+- run types (and pricing tiers)
 
 ## Locations CSV format
 
@@ -101,14 +138,40 @@ Custom links:
 - use any custom value in `label_n`
 - set `other_n` with your custom type identifier (letters/numbers/underscores)
 
+## Settings CSV format
+
+Headers must be in this exact order:
+1) `enable_multiple_location_links`
+2) `enable_multiple_run_locations`
+3) `enable_run_types`
+4) `enable_run_type_pricing_override`
+5) `enable_custom_run_locations`
+6) `show_home_latest_run_report_block`
+7) `show_home_next_run_block`
+8) `show_home_next_run_directions`
+9) `timezone`
+10) `default_currency`
+11) `date_format`
+12) `run_group_names`
+13) `run_types_json`
+
+Notes & validation:
+- Boolean fields accept values like `true/false`, `1/0`, `yes/no`.
+- `timezone` must be a supported timezone identifier.
+- `default_currency` must be a 3-letter ISO-like code (for example `MYR`, `USD`).
+- `date_format` must match supported kennel date formats.
+- `run_group_names` is semicolon-separated labels.
+- `run_types_json` must be a valid JSON array with run type names and pricing tiers.
+
 ## Import flow
 
 1. Open **Import** in the portal.
-2. Choose the dataset (Members or Runs) and upload the CSV.
+2. Choose the dataset (Members, Runs, Locations, or Settings) and upload the CSV.
 3. The system validates header order and field formats, imports valid rows, and reports skipped rows with reasons.
 4. Fix any flagged rows in your CSV and re-upload; successfully imported rows remain in the system.
 
 Tips:
 - Prepare data in a spreadsheet, export to CSV UTF-8.
 - Keep columns exactly ordered as specified; remove extra/unknown headers.
-- For runs, create run sites and members first to improve matching.
+- For runs, create/import locations and members first to improve matching.
+- For runs (Advanced), import settings first so run groups/run types align before import.

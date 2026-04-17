@@ -2,7 +2,7 @@
 title: Settings
 description: Manage kennel profile, domains, branding, SEO and preferences
 published: true
-date: 2026-04-16T21:54:57.784Z
+date: 2026-04-17T13:42:32.332Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:24:45.110Z
@@ -71,8 +71,21 @@ Enable or disable features across your kennel portal and public site:
 ![settings-preferences.png](/admin/settings-preferences.png)
 *(image: Settings → Preferences tab with timezone, date format, and feature toggles)*
 
-## Run Specials
-- Configure special run options.
+## Run Groups
+- **Purpose**: Create reusable group labels for runs (for example, circles, themes, crews, or recurring series).
+- **Visibility**: Groups are available when creating or editing runs, so schedules stay consistent across your kennel.
+- **Management**: Add, rename, and remove groups from one place in Settings.
+- **Organization**: Use groups to help members quickly scan upcoming and past runs by category.
 
 ![settings-run-specials.png](/admin/settings-run-specials.png)
-*(image: Settings → Run Specials tab)*
+*(image: Settings → Run Groups)*
+
+## Run Types
+- **Purpose**: Define the type of run (for example, Normal, Celebration, Virgin, Away) and apply it during run creation.
+- **Standardization**: Keep naming and classification consistent so your run calendar and history stay clean.
+- **Pricing Behavior**: If a run type includes a default pricing tier, runs can inherit that pricing automatically.
+- **Per-Run Flexibility**: When **Allow pricing override on runs** is enabled in Preferences, you can override inherited run type pricing on individual runs.
+- **Workflow**: Update run types in Settings first, then select them while creating or editing runs.
+
+![settings-run-specials.png](/admin/settings-run-types.png)
+*(image: Settings → Run Types)*

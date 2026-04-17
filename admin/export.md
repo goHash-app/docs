@@ -2,7 +2,7 @@
 title: Export
 description: Download members, runs, or run sites as CSV.
 published: true
-date: 2026-04-16T21:26:07.010Z
+date: 2026-04-17T07:22:36.992Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:17:18.476Z
@@ -13,13 +13,20 @@ dateCreated: 2026-02-10T04:17:18.476Z
 
 ## What you can export
 - **Members**: Current membership roster.
-- **Runs**: Hareline schedule with site details.
+- **Runs (Basic)**: Hareline schedule essentials for quick transfer (`run_number`, `run_date`, `run_name`, `run_group`, `location_name`, `hares`).
+- **Runs (Advanced)**: Full run export for high-fidelity transfer, including notes/report, profile stats, run type/pricing override fields, structured `locations_json`, `hares_json`, and file path fields (`gpx_url`, `images_json`).
 - **Locations**: Saved start locations and reference links.
+- **Settings**: Feature toggles, run group names, run types (with pricing tiers), plus kennel defaults (`timezone`, `default_currency`, `date_format`).
 
 ![export.png](/admin/export.png)
 *(image: export page showing Members, Runs, Locations option and Start Export button)*
 
 ## How to export
 1) Open **Export Data** in the portal.
-2) Choose a dataset (Members, Runs, or Locations).
+2) Choose a dataset:
+   - Members
+   - Runs (Basic)
+   - Runs (Advanced)
+   - Locations
+   - Settings
 3) Click **Start Export** to download the CSV.

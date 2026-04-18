@@ -1,8 +1,8 @@
 ---
 title: Export
-description: Download members, runs, or run sites as CSV.
+description: Download members, runs, or locations as CSV.
 published: true
-date: 2026-04-17T07:22:36.992Z
+date: 2026-04-18T02:41:25.799Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:17:18.476Z

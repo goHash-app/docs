@@ -1,8 +1,8 @@
 ---
 title: Import
-description: Bulk import members, runs or run sites via CSV.
+description: Bulk import members, runs or locations via CSV.
 published: true
-date: 2026-04-17T11:34:40.298Z
+date: 2026-04-18T02:41:02.269Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z

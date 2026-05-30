@@ -2,7 +2,7 @@
 title: Event: Group Registration
 description: 
 published: true
-date: 2026-05-30T06:32:30.701Z
+date: 2026-05-30T06:36:41.683Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-30T06:32:30.701Z
@@ -13,7 +13,7 @@ dateCreated: 2026-05-30T06:32:30.701Z
 
 ## When to use group registrations
 
-Use group registrations when one person is signing up several runners at once, such as a family, visiting kennel, corporate team, or group of guests.
+Use group registrations when one person is signing up several runners at once, such as a visiting kennel or group of guests.
 
 The organizer owns the registration link and contact details. Each attendee is still tracked as a separate participant for:
 

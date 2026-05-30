@@ -2,13 +2,13 @@
 title: Event: Group Registration
 description: 
 published: true
-date: 2026-05-30T06:36:41.683Z
+date: 2026-05-30T06:51:14.826Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-30T06:32:30.701Z
 ---
 
-> Group registrations let one organizer register and manage multiple attendees under one event registration, while GoHash tracks each attendee's ticket, add-ons, payment coverage, and outstanding balance separately.
+> Group registrations let one organizer register and manage multiple attendees under one event registration, while system tracks each attendee's ticket, add-ons, payment coverage, and outstanding balance separately.
 {.is-info}
 
 ## When to use group registrations
@@ -18,10 +18,9 @@ Use group registrations when one person is signing up several runners at once, s
 The organizer owns the registration link and contact details. Each attendee is still tracked as a separate participant for:
 
 - ticket type and pricing;
-- required add-ons such as shirt size;
-- optional add-ons;
+- required and optional add-ons;
 - paid, partially paid, or unpaid status;
-- exports, dashboard counts, and inventory planning.
+- exports, attendee counts, and inventory planning.
 
 ## How it works
 
@@ -29,17 +28,15 @@ The organizer owns the registration link and contact details. Each attendee is s
 2. The admin turns on **Group registrations** in the event registration settings.
 3. The organizer opens the public event page and chooses **Group** registration.
 4. The organizer enters their own contact details and adds one or more attendees.
-5. GoHash prices each attendee using the selected ticket type, pricing phase, and attendee add-ons.
+5. Costs are calculated for each attendee using the selected ticket type, pricing phase, and attendee add-ons.
 6. The organizer submits the group registration and receives a secure registration link.
 7. The organizer uses that link to edit attendees, submit payments, and upload receipts while the event rules allow it.
-
-A group registration must always contain at least one attendee. Empty group registrations are rejected on final submission.
 
 ## Organizer vs attendees
 
 The organizer is the registration contact. Their name, email, phone, hash name, and chapter live on the registration record.
 
-Attendees are the people being registered. Attendee rows carry participant details and pricing details. In group mode, GoHash treats attendees as the source of truth for counts, add-on inventory, and per-person payment status.
+Attendees are the people being registered. Attendee rows carry participant details and pricing details. In group mode, the attendees are treated as the source of truth for counts, add-on inventory, and per-person payment status.
 
 This means a group with five attendees counts as five attendees on the Event Dashboard, even though it has one organizer and one registration link.
 
@@ -49,22 +46,22 @@ Each attendee is priced from the event's ticket and add-on setup.
 
 - The selected ticket type supplies the base price.
 - If the ticket uses pricing phases, the active phase supplies the price.
-- Required add-ons are included in the trusted price calculation.
+- Required add-ons are included in the price calculation.
 - Required free add-ons, such as included shirts, still collect option choices for inventory.
-- Optional paid add-ons increase the attendee total.
-- The trusted attendee price is stored in the registration's order snapshot so later reporting can explain how the amount was calculated.
+- Optional paid add-ons increase the attendee cost as selected.
+- The attendee's price is stored in the registration's order snapshot so later reporting can explain how the amount was calculated.
 
 Admins can review the totals on the Event Dashboard and in registration exports.
 
 ## Payment status
 
-GoHash tracks group payment coverage per attendee, not only at the whole-registration level.
+System tracks group payment coverage per attendee, not only at the whole-registration level.
 
 | Status | Meaning |
 | --- | --- |
 | `waiting_payment` | No accepted payment covers this attendee yet. |
-| `partial_payment` | The attendee has accepted payment coverage, but the current attendee total is higher than the accepted amount. |
-| `paid` | Accepted payment coverage is enough to cover the attendee's current total. |
+| `partial_payment` | The attendee has accepted payment coverage, but the current attendee cost is higher than the accepted amount. |
+| `paid` | Accepted payment coverage is enough to cover the attendee's current cost. |
 
 The Event Dashboard shows:
 
@@ -84,7 +81,7 @@ Common examples:
 - A payment receipt is approved for less than the total amount.
 - A paid attendee adds an upgrade, such as a paid shirt or other add-on, before the edit cut-off.
 
-When this happens, GoHash keeps the accepted payment coverage and calculates the remaining amount due. The organizer can create another payment batch for the unpaid attendees or outstanding deltas.
+When this happens, system keeps the accepted payment coverage and calculates the remaining amount due. The organizer can create another payment batch for the unpaid attendees or outstanding deltas.
 
 For example:
 
@@ -92,17 +89,17 @@ For example:
 2. The attendee is paid and marked `paid`.
 3. Before the edit cut-off, the organizer adds a MYR 20 paid add-on.
 4. The attendee total becomes MYR 170.
-5. GoHash keeps MYR 150 as accepted coverage and marks the attendee `partial_payment`.
+5. System keeps MYR 150 as accepted coverage and marks the attendee `partial_payment`.
 6. The remaining MYR 20 can be paid as a new payment.
 
 ## Payment batches
 
-For group registrations, payments can be made for selected attendees instead of the whole group.
+For group registrations, payments are made for selected attendees instead of the whole group.
 
 When an organizer selects attendees to pay:
 
-- GoHash verifies that the selected attendee IDs belong to the same registration.
-- GoHash calculates the trusted outstanding amount for those attendees.
+- System verifies that the selected attendee IDs belong to the same registration.
+- System calculates the trusted outstanding amount for those attendees.
 - Fully paid attendees cannot be charged again through the attendee payment batch.
 - A new payment order is created for the selected attendees and their outstanding amount.
 - The organizer submits a payment transaction and uploads a receipt for that payment.
@@ -218,7 +215,7 @@ They can:
 - export registrations and attendee data;
 - monitor add-on inventory by option, such as shirt sizes.
 
-Portal actions still require the correct role and an active subscription/write-enabled portal state.
+Portal actions still require the correct role and an active subscription to the kennel.
 
 ## Add-ons and inventory
 

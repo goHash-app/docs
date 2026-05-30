@@ -2,7 +2,7 @@
 title: goHash
 description: Official Documentation for goHash
 published: true
-date: 2026-04-16T21:01:58.599Z
+date: 2026-05-30T06:28:16.271Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-08T14:12:05.513Z
@@ -29,6 +29,12 @@ dateCreated: 2026-02-08T14:12:05.513Z
 - **Locations**: Adding and reusing locations for runs and on on's.
 - **Pages**: Creating public or member-only pages, editing content, previews, and publishing.
 - **Menu**: Organizing navigation links for your site.
+
+## Event Registration
+
+- **Registration Setup**: Configure self-service registration, ticket types, add-ons, registration windows, and payment methods.
+- **Registration Dashboard**: Review registrations, finances, receipts, attendee status, and add-on inventory.
+- **Group Registrations**: Let one organizer register multiple attendees while tracking attendee-level payments, receipts, partial balances, and add-on inventory.
 
 ## Administration
 

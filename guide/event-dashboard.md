@@ -1,8 +1,8 @@
 ---
-title: Event Dashboard
+title: Event: Dashboard
 description: 
 published: true
-date: 2026-04-12T12:16:43.911Z
+date: 2026-05-30T06:52:22.305Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-12T11:54:40.525Z

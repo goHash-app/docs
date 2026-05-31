@@ -2,7 +2,7 @@
 title: Pages
 description: Create pages for your kennel site.
 published: true
-date: 2026-05-31T03:20:01.132Z
+date: 2026-05-31T03:22:03.048Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:22:21.238Z
@@ -96,6 +96,3 @@ Supported page file uploads include common image files, PDF, text, CSV, Word, an
 Press **Save** after editing content or blocks. On Mac, `Cmd + S` saves the page; on Windows and Linux, `Ctrl + S` saves the page.
 
 Published pages update on the public site after saving. Draft and archived pages are not available as public pages.
-
-*(screenshot: pages list with statuses and aliases)*
-*(screenshot: page edit form showing status dropdown, alias, and SEO fields)*

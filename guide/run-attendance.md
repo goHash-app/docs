@@ -2,7 +2,7 @@
 title: Run Attendance
 description: 
 published: true
-date: 2026-07-22T18:55:28.070Z
+date: 2026-07-22T18:57:06.886Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-22T18:55:28.070Z
@@ -37,13 +37,13 @@ Open a run and choose **Record Attendance**. The page lists active members and s
 
 The member list can show the **Runs** field when it is enabled in the member-field settings. This total combines recorded attendance with the member's base run count, which is useful when older historical runs are not imported individually.
 
-## QR check-in
+## QR Check In
 
 Select **Scan QR** on the attendance page, then scan or enter a member QR payload. A successful scan records that member against the current run and refreshes their attendance total.
 
 Use manual check-in when a member has no usable QR code.
 
-## Safety checkout
+## Run Checkout
 
 When **Enable Run Checkout** is on, checked-in members have a **Check Out** action.
 

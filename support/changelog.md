@@ -2,7 +2,7 @@
 title: Changelog
 description: 
 published: true
-date: 2026-08-21T02:10:31.873Z
+date: 2026-08-21T02:18:44.001Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-21T02:10:31.873Z
@@ -14,11 +14,11 @@ Summary of changes and improvements in goHash
 
 ## 2026-08-21 - v1.1.0
 
-> Hash Cash can now manage financial accounts, transactions, financial reporting.
+> Hash Cash can now manage financial accounts, transactions, and financial reporting.
 {.is-info}
 
 ### Summary
-- Portal: A new Finance workspace brings kennel cash management and financial reporting into goHash.
+- This release adds a new Finance workspace for kennel cash management and financial reporting.
 
 ### New Features
 - Portal: Create and manage cash, bank, and payment-clearing accounts.
@@ -32,7 +32,7 @@ Summary of changes and improvements in goHash
 
 ## 2026-07-24 - v1.0.10
 
-> Run Attendance, Guest Management, and Site Experience Improvements
+> Run attendance is now more complete for members and guests, while event history, payment review, and public site layouts continue to improve.
 {.is-info}
 
 ### Summary
@@ -54,12 +54,10 @@ Summary of changes and improvements in goHash
 - Sites: Fixed missing run-type details in the homepage Hareline expansion.
 - Sites: Reduced unnecessary whitespace for runs without a defined location and removed duplicate unknown-location placeholders.
 
-2026-07-14
-v1.0.9
-
-Registration Transfers, Security Hardening, and Reliability Improvements
+## 2026-07-14 - v1.0.9
 
 > Event registrations can now be transferred to a new holder, and a range of security and reliability improvements have been applied across the platform.
+{.is-info}
 
 ### Summary
 - This release adds a full self-service registration transfer workflow, hardens platform security across content handling and file management, and improves reliability for registration add-ons and email notifications.
@@ -69,12 +67,10 @@ Registration Transfers, Security Hardening, and Reliability Improvements
 - Portal: Event managers can enable or disable registration transfers per event, with an optional transfer cutoff date to close the window before the event.
 - Sites: During a transfer, registrants can update included add-on selections (such as shirt size) if the event's edit cutoff has not passed. Changes take effect when the new holder accepts the transfer. Add-ons are locked automatically during a transfer once the edit cutoff has passed, with a clear indicator shown on the transfer form.
 
-2026-07-04
-v1.0.8
-
-Event Check-In, Email Design, and Registration Reliability Improvements
+## 2026-07-04 - v1.0.8
 
 > Event check-in, upgraded email design, registrations and member exports are now more complete and more reliable for portal users.
+{.is-info}
 
 ### Summary
 - This release adds event check-in including live QR-based scanning, upgraded transactional email design, event registration PDFs, member CSV export, and a range of reliability fixes across the board.
@@ -94,12 +90,10 @@ Event Check-In, Email Design, and Registration Reliability Improvements
 ### Fixes
 - Sites: Fixed event registration emails so add-on labels appear correctly in notification summaries.
 
-2026-06-25
-v1.0.7
-
-Site Design and Event Workflow Improvements
+## 2026-06-25 - v1.0.7
 
 > Public kennel sites have more flexible presentation options, clearer event timing, and smoother portal workflows for registrations, media, and payments.
+{.is-info}
 
 ### Summary
 - This release improves public site design controls, hareline and event display, event registration management, payment receipt review, media uploads, and new kennel creation protection.
@@ -130,12 +124,10 @@ Site Design and Event Workflow Improvements
 - Sites: Improved event and registration display around phase timing, cutoff dates, and selected tickets.
 - Portal: Fixed event edit forms so saved start times are restored correctly after reload.
 
-2026-06-14
-v1.0.6
-
-Event Registration and Date Display Refinements
+## 2026-06-14 - v1.0.6
 
 > Event registration pages, registration timing, and kennel date displays are more consistent for members and event managers.
+{.is-info}
 
 ### Summary
 - This release improves event registration, date formatting, and portal form guidance across public kennel sites and event management.
@@ -158,12 +150,10 @@ Event Registration and Date Display Refinements
 - Fixed cases where public event lists could hide or show registration availability incorrectly.
 - Improved date handling across public event and run pages so date-only values do not shift unexpectedly.
 
-2026-06-12
-v1.0.5
-
-Member, Event, and Website Management Improvements
+## 2026-06-12 - v1.0.5
 
 > Member records, event numbering, public pages, and printed member lists are now more flexible and easier to manage.
+{.is-info}
 
 ### Summary
 - This release improves everyday portal workflows for managing members, events, public site content, and printable member lists.
@@ -186,12 +176,10 @@ Member, Event, and Website Management Improvements
 - Prevented duplicate numbering between events and runs.
 - Improved member photo handling and member list output consistency.
 
-2026-06-02
-v1.0.4
-
-Portal Media, Pages, and Registration Improvements
+## 2026-06-02 - v1.0.4
 
 > Portal image handling, public site pages, member photos, and event registrations are now easier to manage.
+{.is-info}
 
 ### Summary
 - This release improves public site content tools, event registration workflows, and image handling across the portal.
@@ -208,12 +196,10 @@ Portal Media, Pages, and Registration Improvements
 - Member photo tools now support taking a photo directly from the portal, with upload available as a fallback.
 - Member photos are shown only where they are relevant in member management views.
 
-2026-05-26
-v1.0.3
-
-Portal Editing and Mobile Improvements
+## 2026-05-26 - v1.0.3
 
 > Portal editing is smoother across runs, locations, and members, with better mobile layouts and safer media uploads.
+{.is-info}
 
 ### Summary
 - This release improves day-to-day portal editing, especially on mobile devices.
@@ -228,12 +214,10 @@ Portal Editing and Mobile Improvements
 - Unsaved changes in portal editors are now handled more consistently before closing.
 - Run and member editor forms now recover more reliably when reopening an item after closing it.
 
-2026-05-24
-v1.0.2
-
-System, Portal and Website Reliability Improvements
+## 2026-05-24 - v1.0.2
 
 > Public kennel sites, event registration, billing, and portal forms are now more reliable and easier to use.
+{.is-info}
 
 ### Summary
 - This release focuses on visible product polish and reliability after the platform maintenance work completed in May.
@@ -256,12 +240,10 @@ System, Portal and Website Reliability Improvements
 - Event pages now redirect back to the runs list when the selected event cannot be found.
 - Run deletion confirmations now show cleaner run labels.
 
-2026-04-18
-v1.0.1
-
-Locations and Registration Improvements
+## 2026-04-18 - v1.0.1
 
 > Run sites are now called Locations with better organization, plus free tickets and enhanced registration features.
+{.is-info}
 
 ### New Features
 - Run sites renamed to "Locations" with improved management
@@ -283,12 +265,10 @@ Locations and Registration Improvements
 ### Fixes
 - Group-run events display "By <group>" when no hare is set
 
-2026-04-10
-v1.0.0
-
-Event Registration and Ticketing
+## 2026-04-10 - v1.0.0
 
 > Members can now register for events with integrated checkout, ticket tiers, and add-ons.
+{.is-info}
 
 ### New Features
 - Event registration with member lookup and optional email
@@ -310,34 +290,28 @@ Event Registration and Ticketing
 - Consistent currency formatting throughout
 - Streamlined registration form validation
 
-2026-03-31
-v0.9.2
-
-Member Selection Improvements
+## 2026-03-31 - v0.9.2
 
 > Hare selection now shows inactive members and member IDs sort numerically.
+{.is-info}
 
 ### Updates
 - Hare selection dropdown now includes inactive members for historical accuracy
 - Member ID sorting improved to handle numeric values correctly
 
-2026-03-14
-v0.9.1
-
-UI Polish and Run Form Improvements
+## 2026-03-14 - v0.9.1
 
 > Improved hero image display and hare selection ordering in run forms.
+{.is-info}
 
 ### Updates
 - Hero images now display with better responsive sizing
 - Hare selection in run forms preserves the order you selected them
 
-2026-03-01
-v0.9.0
-
-Multiple Hares and Member Management
+## 2026-03-01 - v0.9.0
 
 > Runs can now have multiple hares, plus improved member management with configurable fields.
+{.is-info}
 
 ### New Features
 - Multiple hares per run with multi-select interface
@@ -349,12 +323,10 @@ Multiple Hares and Member Management
 - Improved formatting for opportunity notes display
 - Cleaner hare selection interface in run forms
 
-2026-02-18
-v0.8.3
-
-Storage Monitoring and Event Enhancements
+## 2026-02-18 - v0.8.3
 
 > Storage usage tracking and improved event management with structured data support.
+{.is-info}
 
 ### New Features
 - Storage usage visualization with 30-day growth trends
@@ -379,12 +351,10 @@ Storage Monitoring and Event Enhancements
 - Improved kennel home page breadcrumb handling
 - Storage quota calculations now show accurate percentages
 
-2026-01-26
-v0.8.2
-
-Events and Server-Side Rendering
+## 2026-01-26 - v0.8.2
 
 > Create special events separate from regular runs, plus faster kennel websites with server-side rendering and improved SEO.
+{.is-info}
 
 ### New Features
 - Special events that stand apart from regular runs
@@ -401,12 +371,10 @@ Events and Server-Side Rendering
 - Founded date now displays on kennel pages
 - Enhanced structured data for better search engine visibility
 
-2026-01-15
-v0.8.1
-
-Custom Domains and GPX Map Visualization
+## 2026-01-15 - v0.8.1
 
 > Configure your own domain name for your kennel and visualize run routes with interactive GPX maps.
+{.is-info}
 
 ### New Features
 - Custom domain names for kennel websites with automatic www/apex pairing
@@ -422,12 +390,10 @@ Custom Domains and GPX Map Visualization
 - Date format preferences respected throughout forms
 - Site footer now shows "powered by gohash.app"
 
-2026-01-05
-v0.8.0
-
-Foundation and First Release
+## 2026-01-05 - v0.8.0
 
 > The first official version of goHash is live! Centralized management for Hash House Harriers is finally here.
+{.is-info}
 
 ### New Features
 - Multi-tenant architecture with domain-based routing

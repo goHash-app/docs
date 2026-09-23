@@ -2,7 +2,7 @@
 title: Changelog
 description: 
 published: true
-date: 2026-08-21T02:18:44.001Z
+date: 2026-09-23T05:29:01.088Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-21T02:10:31.873Z
@@ -11,6 +11,42 @@ dateCreated: 2026-08-21T02:10:31.873Z
 # goHash Changelog
 
 Summary of changes and improvements in goHash
+
+## 2026-09-09 - v1.1.2
+
+Membership Dues and Page Images
+
+> Manage membership dues and payment history, and enrich site pages with images, captions, and layout controls.
+{.is-info}
+
+### Summary
+- Finance now supports configurable membership fees, dues generation, and payment resolution, while Sites page editing adds image uploads and formatting controls.
+
+### New Features
+- Portal: Configure membership fees and grace periods by member type, with monthly, quarterly, half-yearly, or annual calendar billing.
+- Portal: Generate membership dues through a chosen date and review them by member, billing period, due date, and resolution status.
+- Portal: Resolve dues by recording a payment, linking an existing transaction, or marking the fee as handled or uncollectable with a reason and notes.
+- Portal: Users with Finance access can open a member's membership payment history to see amounts, covered periods, and payment dates.
+- Sites: Insert images directly into page content by uploading a new image or choosing an existing page image from the media browser.
+
+### Updates
+- Portal: Membership income entries can now be linked to a member's billing period, with clear warnings when a linked payment differs from the amount due.
+- Portal: Settings now groups member fields and member types under Members, with run settings under Runs. Member Type stays visible when member types are configured.
+- Sites: Adjust image alignment and displayed width, and add captions below images in page content.
+
+## 2026-09-02 - v1.1.1
+
+> Event dates and registration confirmation times are now clearer and more accurate for kennel members.
+{.is-info}
+
+### Summary
+- This release improves event date display and ensures registration confirmation PDFs use the kennel's local timezone.
+
+### Updates
+- Sites: Multi-day events now display their start and end dates more clearly on event banners and detail pages.
+
+### Fixes
+- Sites: Registration confirmation PDFs now show payment and event times in the kennel's configured timezone.
 
 ## 2026-08-21 - v1.1.0
 

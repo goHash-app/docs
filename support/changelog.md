@@ -2,7 +2,7 @@
 title: Changelog
 description: 
 published: true
-date: 2026-10-16T10:23:22.442Z
+date: 2026-10-16T10:33:18.766Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-21T02:10:31.873Z
@@ -11,6 +11,33 @@ dateCreated: 2026-08-21T02:10:31.873Z
 # goHash Changelog
 
 Summary of changes and improvements in goHash
+
+## 2026-10-16 - v1.1.5
+
+Public Statistics and Run Management Improvements
+
+> Explore kennel run history more clearly, and manage run data and event payments with greater confidence.
+{.is-info}
+
+### Summary
+- This release adds public run statistics, improves run data import and export, and refines event registration payments and homepage event promotion.
+
+### New Features
+- Sites: View public statistics for runs, runners, locations, attendance, distance, and elevation when enabled by the kennel.
+- Sites: Explore statistics by year or all time, with run history, runner history, adaptive charts, and clearer no-data states.
+- Portal: Import and export runs using separate Basic and Advanced CSV formats with consistent column validation.
+- Portal: Advanced run imports support run times, notes, reports, locations, run types, pricing overrides, and other run details.
+
+### Updates
+- Portal: Event registration summaries and payments now use the current attendee ticket prices and donation amounts more consistently.
+- Sites: Homepage event promotion now shows clearer event summaries and cleaner poster presentation.
+- Portal: Imported runs with an unmatched run type now use the configured Normal Run type when available.
+
+### Fixes
+- Sites: Disabled public statistics links now return visitors to the kennel homepage.
+- Sites: Statistics charts no longer show empty history before the first run with available detail.
+- Portal: Run imports now preserve valid CSV quoting and reject mismatched Basic or Advanced column sets clearly.
+- Portal: Event registration payment and partial-payment summaries now show the correct outstanding amounts.
 
 ## 2026-10-05 - v1.1.4
 

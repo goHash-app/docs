@@ -2,7 +2,7 @@
 title: Changelog
 description: 
 published: true
-date: 2026-09-23T05:29:01.088Z
+date: 2026-10-16T10:23:22.442Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-21T02:10:31.873Z
@@ -11,6 +11,47 @@ dateCreated: 2026-08-21T02:10:31.873Z
 # goHash Changelog
 
 Summary of changes and improvements in goHash
+
+## 2026-10-05 - v1.1.4
+
+Event Registration and Event Management Improvements
+
+> Event registration management is clearer and event reporting is easier to use.
+{.is-info}
+
+### Summary
+- This release improves group registration and ticket management, adds kennel selection tools for registrations, and makes event dashboards easier to review and export.
+
+### New Features
+- Portal/Sites: Select a kennel from autocomplete field when creating or editing event registrations, with nickname search and custom-name support.
+
+### Updates
+- Portal: Change ticket types for individual attendees or an entire group while preserving each attendee's current ticket and payment history.
+- Portal: Group registration summaries now show each attendee's ticket, add-ons, payment status, full current price, and outstanding balance.
+- Portal: Event check-in group badges now show the number of attendees in the group.
+- Portal: Event dashboards now support clearer registration dates and CSV timestamps for reporting and exports.
+- Portal: Registration kennel selections preserve the canonical kennel identity while keeping existing custom and historical values usable.
+- Sites: Partial payment receipt uploads now request only the remaining amount for each selected attendee.
+
+### Fixes
+- Portal: Fixed ticket-change payments and summaries so upgrades show the full new ticket price while outstanding balances show only the amount still due.
+- Portal: Fixed ticket changes for group attendees when attendee IDs are submitted in browser JSON requests.
+- Portal: Fixed ticket summaries for phased pricing and add-ons so legacy registrations retain the correct amount.
+
+## 2026-10-01 - v1.1.3
+
+Event Registration and Billing Improvements
+
+> Event registration details and subscription billing now stay clearer and more consistent.
+{.is-info}
+
+### Summary
+- This release improves event registration summaries, filtering, and subscription billing consistency.
+
+### Fixes
+- Portal: Event registration attendee counts now update to match the selected status or search filter.
+- Sites: Paid group registration summaries now show the amount paid for each attendee.
+- Portal: Subscription billing now keeps the billing contact aligned with the kennel owner.
 
 ## 2026-09-09 - v1.1.2
 

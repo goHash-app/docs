@@ -2,7 +2,7 @@
 title: Import
 description: Bulk import members, runs or locations via CSV.
 published: true
-date: 2026-04-18T02:41:02.269Z
+date: 2026-10-22T02:54:25.356Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T04:18:09.596Z
@@ -159,6 +159,35 @@ Use valid JSON text in these columns.
 ### Recommended order for Advanced runs import
 
 Import **Settings, Members & Locations first**, make sure the keys and names match with your run data. Then import Runs (Advanced), so dependencies already exist in the target kennel.
+
+## Run attendance CSV format
+
+Run attendance import uses this exact column order:
+
+1) `short_name` — required member short name
+2) `run_number` — required run number
+3) `checked_in_at` — optional check-in timestamp
+4) `checked_out_at` — optional checkout timestamp
+
+Example:
+
+```csv
+short_name,run_number,checked_in_at,checked_out_at
+Example Member,1000,2025-01-06 19:30,2025-01-06 23:00
+```
+
+### Run attendance fields and rules
+
+- `short_name` is matched case-insensitively against exactly one member in the current kennel. It is a lookup value, not a permanent member ID.
+- `run_number` is matched against exactly one existing run in the current kennel. The run must already exist before attendance is imported.
+- `checked_in_at` accepts `yyyy-mm-dd HH:mm` or ISO 8601. If it is blank, the importer uses the run date and configured run time; if the run has no configured time, it uses midnight on the run date.
+- `checked_out_at` accepts `yyyy-mm-dd HH:mm` or ISO 8601. If it is blank, no checkout is recorded; checkout is never inferred.
+- Timestamps without an explicit timezone are interpreted in the kennel timezone. The fixed human-readable interchange format is `yyyy-mm-dd HH:mm`.
+- Each member/run pair may appear only once in a file. Re-importing an existing pair updates that attendance record instead of creating a duplicate.
+- Guest attendance is not supported by this CSV and is intentionally excluded from attendance export.
+- The import reports created, updated, skipped, and rejected rows. Unknown or ambiguous members/runs and invalid timestamps are rejected for correction.
+
+Run attendance import is available only when Run Attendance is enabled and is restricted to owners and admins. Import **Members** and **Runs** first so the member short names and run numbers can be resolved.
 
 ## Locations CSV format
 

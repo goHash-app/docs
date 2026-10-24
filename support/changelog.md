@@ -2,7 +2,7 @@
 title: Changelog
 description: 
 published: true
-date: 2026-10-16T10:33:18.766Z
+date: 2026-10-24T04:57:14.332Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-21T02:10:31.873Z
@@ -11,6 +11,52 @@ dateCreated: 2026-08-21T02:10:31.873Z
 # goHash Changelog
 
 Summary of changes and improvements in goHash
+
+## 2026-10-24 - v1.1.7
+
+Co-Hares and Public Site Improvements
+
+> Add co-hare support across run management, public Harelines, and statistics while improving responsive run displays.
+{.is-info}
+
+### Summary
+- This release adds co-hare support throughout run management and public site views, with clearer statistics defaults and improved responsive layouts.
+
+### New Features
+- Portal: Add one or more co-hares to a run and include them in run lists, statistics, and Advanced CSV import and export.
+- Sites: Display co-hares on the homepage, Hareline, run details, and mobile run cards.
+- Sites: Choose whether public statistics open on the current year or all-time results.
+
+### Updates
+- Portal: Advanced run pricing overrides now display consistently on public run pages.
+- Portal: Run imports support multiple comma-separated hare names.
+- Portal: Run and event dashboard cards have improved mobile ordering, spacing, and action layouts.
+- Sites: Run details, Hareline rows, and homepage run blocks now present locations, fees, directions, and co-hare information more clearly across screen sizes.
+
+### Fixes
+- Sites: Corrected missing run details, location fallbacks, and mobile Hareline spacing.
+
+## 2026-10-21 - v1.1.6
+
+Collective Websites and Public Site Improvements
+
+> Display multiple kennels on one collective site (City or Region site for multiple kennels).
+{.is-info}
+
+### Summary
+- This release introduces collective websites and how data from kennels part of the collective are presented on a shared public site.
+
+### New Features
+- Collective: goHash.app can create a collective website on request from several kennels, bringing their participating runs together in one public Hareline.
+- Collective: Customize a collective's branding, profile details, menus, page content, custom domain, and public site appearance.
+- Collective: Switch between kennel and collective workspaces while keeping the active site clearly identified.
+- Collective: Review participating kennels and manage collective ownership, member access, invitations, and ownership transfers.
+- Collective: Publish a collective Hareline with kennel names, run groups, kennel date preferences.
+- Collective: Each collective has their own navigation from pages and menu targets independant from the kennels.
+
+### Fixes
+- Portal: Improved recovery for suspended subscriptions and disabled-account invitations.
+- Portal: Collective access labels, role restrictions, and ownership transfer behavior are now enforced consistently.
 
 ## 2026-10-16 - v1.1.5
 

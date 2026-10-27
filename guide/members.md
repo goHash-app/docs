@@ -2,7 +2,7 @@
 title: Members
 description: Browse, invite, and manage members of your kennel.
 published: true
-date: 2026-02-10T08:46:16.421Z
+date: 2026-10-27T00:07:26.716Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:42:43.003Z
@@ -10,6 +10,11 @@ dateCreated: 2026-02-09T05:42:43.003Z
 
 > View and manage the members of your kennel. See profiles and switch members between active and inactive states.
 {.is-info}
+
+<video width="100%" controls preload="metadata">
+  <source src="/videos/add-member.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
 ## Members
 - **Member list**: Search and filter members; view profiles and statuses.

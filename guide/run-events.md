@@ -2,7 +2,7 @@
 title: Runs & Events
 description: Create and manage runs and event updates.
 published: true
-date: 2026-04-16T21:18:25.766Z
+date: 2026-10-27T07:55:50.710Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:50:29.915Z
@@ -10,6 +10,11 @@ dateCreated: 2026-02-09T05:50:29.915Z
 
 > Plan and track your runs, keep the hareline filled, and record updates on each event.
 {.is-info}
+
+<video width="60%" controls preload="metadata">
+  <source src="/videos/add-run.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
 ## Runs & Events 
 - **Filters**: Upcoming, Past, All.

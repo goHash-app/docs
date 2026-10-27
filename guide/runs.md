@@ -2,7 +2,7 @@
 title: Runs
 description: Create and manage runs and event updates.
 published: true
-date: 2026-10-27T08:42:58.502Z
+date: 2026-10-27T09:13:33.337Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:50:29.915Z
@@ -39,6 +39,7 @@ dateCreated: 2026-02-09T05:50:29.915Z
 
 For event registration, use these guides:
 
-- [Event: Registration Setup](/guide/event-registration-setup) — configure registration, ticket types, add-ons, registration windows, capacity, and payment methods.
-- [Group Registrations](/guide/group-registrations) — register and manage multiple attendees in one order.
-- [Registration Dashboard](/guide/event-registration-dashboard) — review registrations, finances, receipts, attendee status, and add-on inventory.
+- [Event: Registration Setup](/guide/event-registration) — configure registration, ticket types, add-ons, registration windows, capacity, and payment methods.
+- [Registration Dashboard](/guide/event-dashboard) — review registrations, finances, receipts, attendee status, and add-on inventory.
+- [Group Registrations](/guide/event-group-registration) — register and manage multiple attendees in one order.
+

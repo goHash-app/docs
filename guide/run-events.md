@@ -1,8 +1,8 @@
 ---
-title: Runs & Events
+title: Runs
 description: Create and manage runs and event updates.
 published: true
-date: 2026-10-27T07:55:50.710Z
+date: 2026-10-27T08:42:58.502Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:50:29.915Z
@@ -16,7 +16,7 @@ dateCreated: 2026-02-09T05:50:29.915Z
   Your browser does not support HTML5 video.
 </video>
 
-## Runs & Events 
+## Runs
 - **Filters**: Upcoming, Past, All.
 - **Columns**: Run #, Date, Hare, Location, Status, Actions (edit/delete).
 - **Quick actions**: Add Event, Schedule Run.
@@ -35,10 +35,10 @@ dateCreated: 2026-02-09T05:50:29.915Z
 *(image: run create/edit form with date, location, hares, status)*
 
 
-## Create or edit an Event
-- **Create or edit an event**: Title, status, start/end dates, registration deadline, capacity, and homepage promotion.
-- **Tabs**: General, Content, Venue & Schedule, Pricing & Add-ons, Registration, Contact Info, Settings.
-- **Status**: Draft/Published with date-based visibility.
+## Events
 
-![edit-event.png](/guide/edit-event.png)
-*(image: edit event > general, content, venue & schedule, pricing & add-ons, registration, contact info, settings)*
+For event registration, use these guides:
+
+- [Event: Registration Setup](/guide/event-registration-setup) — configure registration, ticket types, add-ons, registration windows, capacity, and payment methods.
+- [Group Registrations](/guide/group-registrations) — register and manage multiple attendees in one order.
+- [Registration Dashboard](/guide/event-registration-dashboard) — review registrations, finances, receipts, attendee status, and add-on inventory.

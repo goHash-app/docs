@@ -2,7 +2,7 @@
 title: Run Sites
 description: Manage Run sites locations for your runs.
 published: true
-date: 2026-04-16T21:16:45.195Z
+date: 2026-10-27T00:24:12.942Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:20:22.187Z
@@ -10,6 +10,11 @@ dateCreated: 2026-02-10T02:20:22.187Z
 
 > Save and reuse your locations so runs stay consistent and easy to schedule.
 {.is-info}
+
+<video width="60%" controls preload="metadata">
+  <source src="/videos/add-location.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
 - **Add Location**: Name the location and store coordinates/maps details.
 - **Multiple Links**: Attach several map links (run site location, On On, Tripple On, etc.). These appear on run details and the hareline.

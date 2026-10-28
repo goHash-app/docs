@@ -2,7 +2,7 @@
 title: Runs
 description: Create and manage runs and event updates.
 published: true
-date: 2026-10-28T01:29:39.679Z
+date: 2026-10-28T01:31:21.394Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-09T05:50:29.915Z
@@ -10,6 +10,26 @@ dateCreated: 2026-02-09T05:50:29.915Z
 
 > Plan and track your runs, keep the hareline filled, and record updates on each event.
 {.is-info}
+
+## Scheduling a run 
+
+- **General Details**: Run number, date, location(s), hare, run name/group.
+
+<video width="60%" controls preload="metadata">
+  <source src="/videos/add-run.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+## Edit a run
+
+- **Report & Notes**: Run report and internal notes.
+- **Media & Files**: GPX/routes, maps, and photos of the trail.
+- **Stats & Data**: Attendees, distance (km), elevation (m).
+
+<video width="60%" controls preload="metadata">
+  <source src="/videos/edit-run.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
 ## Runs
 - **Filters**: Upcoming, Past, All.
@@ -19,24 +39,6 @@ dateCreated: 2026-02-09T05:50:29.915Z
 
 ![runs.png](/guide/runs.png)
 *(image: runs list with filters Upcoming/Past/All)*
-
-## Scheduling a run 
-- **General Details**: Run number, date, location(s), hare, run name/group.
-- **Report & Notes**: Run report and internal notes.
-- **Media & Files**: GPX/routes, maps, and photos of the trail.
-- **Stats & Data**: Attendees, distance (km), elevation (m).
-
-<video width="60%" controls preload="metadata">
-  <source src="/videos/add-run.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-
-## Scheduling a run 
-
-<video width="60%" controls preload="metadata">
-  <source src="/videos/edit-run.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
 
 ## Events
 

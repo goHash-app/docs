@@ -2,7 +2,7 @@
 title: Key Concepts
 description: Overview of GoHash’s core concepts: kennels, runs/events, members, users, and roles.
 published: true
-date: 2026-04-16T21:22:10.153Z
+date: 2026-10-29T05:43:59.554Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-10T02:15:37.779Z
@@ -40,6 +40,8 @@ Control what each user can do in the portal.
   - **Owner**: Full access, billing, settings, domains.
   - **Admin**: Full access, billing, settings, domains (but has no ownership).
   - **Hare Raiser**: Create/edit runs & events.
+  - **Run Master**: Records run & guest attendance.
+  - **Event Master**: Checks in event attendees.
   - **Hash Cash**: Billing and finance.
   - **On Sec**: Member management.
   - **Scribe**: Pages and menu content.

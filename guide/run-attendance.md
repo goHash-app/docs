@@ -2,7 +2,7 @@
 title: Run Attendance
 description: 
 published: true
-date: 2026-07-22T18:57:06.886Z
+date: 2026-10-29T05:44:37.359Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-22T18:55:28.070Z
@@ -22,7 +22,7 @@ Run Attendance must be enabled before Checkout or Guest Attendance can be enable
 
 ## Who can use it
 
-Owners, admins, and On Secs can record attendance, scan QR codes, remove an attendance record, and use checkout. Other portal roles cannot manage attendance.
+Owners, admins, On Secs, and Run Masters can record attendance, scan QR codes, remove an attendance record, and use checkout. Run Masters use the read-only Runs & Events list to select a run and cannot create, edit, or delete runs or events.
 
 CSV import and export are limited to owners and admins.
 

@@ -2,7 +2,7 @@
 title: Guests
 description: 
 published: true
-date: 2026-07-22T19:00:28.710Z
+date: 2026-10-29T05:43:14.691Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-22T19:00:28.710Z
@@ -23,7 +23,7 @@ Guest Attendance cannot be enabled on its own. If Run Attendance is turned off, 
 
 ## Who can manage guests
 
-Owners, admins, and On Secs can add guests to a run, maintain reusable guest identities, review guest history, merge duplicates, and convert a guest to a member.
+Owners, admins, On Secs, and Run Masters can add guests to a run, maintain reusable guest identities, review guest history, merge duplicates, and convert a guest to a member.
 
 ## Add a guest to a run
 
